@@ -1,4 +1,4 @@
-const Fury = require('@kava-labs/javascript-sdk');
+const Fury = require('@fury-labs/javascript-sdk');
 const { sleep } = require("./helpers.js");
 
 const incomingSwap = async (furyClient, bnbClient, assets, denom, amount) => {

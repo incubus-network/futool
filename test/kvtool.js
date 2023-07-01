@@ -1,4 +1,4 @@
-const Fury = require('@kava-labs/javascript-sdk');
+const Fury = require('@fury-labs/javascript-sdk');
 const BnbApiClient = require('@binance-chain/javascript-sdk');
 const { sleep } = require("./helpers.js");
 
