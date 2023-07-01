@@ -3,17 +3,17 @@ package cmd
 import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/kava-labs/kava/app"
+	"github.com/incubus-network/fury/app"
 	"github.com/spf13/cobra"
 
-	"github.com/kava-labs/kvtool/cmd/testnet"
+	"github.com/incubus-network/futool/cmd/testnet"
 )
 
-var kavaGrpcUrl string
+var furyGrpcUrl string
 
 var rootCmd = &cobra.Command{
 	Use:   "kvtool",
-	Short: "Dev tools for working with the kava blockchain.",
+	Short: "Dev tools for working with the fury blockchain.",
 }
 
 // Execute runs the root command.

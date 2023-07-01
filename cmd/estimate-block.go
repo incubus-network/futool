@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/kava-labs/kvtool/kavaclient"
+	"github.com/incubus-network/futool/furyclient"
 )
 
 const estimateBlockTimeFormat = "2006-01-02T15:04"
@@ -26,10 +26,10 @@ $ kvtool estimate-block-height 2050-05-22T15:00
 		RunE: func(_ *cobra.Command, args []string) error {
 			numRetries := 5
 
-			fmt.Printf("using endpoint %s\n", kavaGrpcUrl)
-			k, err := kavaclient.NewClient(kavaGrpcUrl)
+			fmt.Printf("using endpoint %s\n", furyGrpcUrl)
+			k, err := furyclient.NewClient(furyGrpcUrl)
 			if err != nil {
-				return fmt.Errorf("failed to create kava grpc client: %s", err)
+				return fmt.Errorf("failed to create fury grpc client: %s", err)
 			}
 
 			now := time.Now()
@@ -75,7 +75,7 @@ $ kvtool estimate-block-height 2050-05-22T15:00
 		},
 	}
 
-	cmd.PersistentFlags().StringVar(&kavaGrpcUrl, "node", "https://grpc.data.kava.io:443", "kava GRPC url to run queries against")
+	cmd.PersistentFlags().StringVar(&furyGrpcUrl, "node", "https://grpc.data.fury.io:443", "fury GRPC url to run queries against")
 
 	return cmd
 }

@@ -32,7 +32,7 @@ Have `docker` & `docker-compose` installed.
 
 This example uses the following, but the instructions should work for any genesis:
 * starting genesis file: `./example-genesis.json`
-* new chain id: `kavamirror_2221-1`
+* new chain id: `furymirror_2221-1`
 
 ## configure genesis to use our validators
 Replace top ten validators with our nodes:
@@ -41,7 +41,7 @@ Replace top ten validators with our nodes:
 ./gen.sh
 
 # replace validators in original genesis
-update-genesis-validators example-genesis.json --chain-id kavamirror_2221-10
+update-genesis-validators example-genesis.json --chain-id furymirror_2221-10
 
 # copy updated genesis to all validator config directories
 ./copy-gen.sh
@@ -52,22 +52,22 @@ update-genesis-validators example-genesis.json --chain-id kavamirror_2221-10
 docker-compose up
 ```
 
-## change the kava version
-By default, this uses the `master` tag of the kava docker image.
-You can override the tag with the `KAVA_IMAGE_TAG` env variable.
+## change the fury version
+By default, this uses the `master` tag of the fury docker image.
+You can override the tag with the `FURY_IMAGE_TAG` env variable.
 **NOTE: the docker image you use must be setup to run rocksdb.**
 
-To use a local version, first build & tag the kava image:
+To use a local version, first build & tag the fury image:
 ```
-# wherever the Kava-Labs/kava git repo is
-cd ~/kava
-docker build -f Dockerfile-rocksdb -t kava/kava:local .
+# wherever the Fury-Labs/fury git repo is
+cd ~/fury
+docker build -f Dockerfile-rocksdb -t fury/fury:local .
 cd -
 ```
 
 Then run this with the new tag:
 ```sh
-KAVA_IMAGE_TAG=local docker-compose up --force-recreate
+FURY_IMAGE_TAG=local docker-compose up --force-recreate
 ```
 
 Note that `--force-recreate` is necessary if run previously. It will force the image tag from the environment to be picked up even if the containers have already been created.
@@ -84,15 +84,15 @@ may need to be added here. This is how:
 
 3. add another node to the docker compose (replace `11` in the name and `volumes` below with the new node index):
 ```yaml
-  kava-11:
-    image: "kava/kava:${KAVA_IMAGE_TAG:-master}"
+  fury-11:
+    image: "fury/fury:${FURY_IMAGE_TAG:-master}"
     volumes:
-      - "./kava-11:/root/.kava"
+      - "./fury-11:/root/.fury"
     # start the blockchain, and set rpc to listen to connections from outside the container
     command:
       - "sh"
       - "-c"
-      - "/root/.kava/config/init-data-directory.sh && kava start --rpc.laddr=tcp://0.0.0.0:26657"
+      - "/root/.fury/config/init-data-directory.sh && fury start --rpc.laddr=tcp://0.0.0.0:26657"
 ```
 
 4. resume your regularly scheduled meganode running

@@ -4,10 +4,10 @@
 
 We want a tool that can set up testnets of our various services in several different configurations. For example:
 
-- a kvd node, bnbchain node (with rest servers), and the deputy for integration testing the web app
-- a bare kvd node built from unmerged branches for helping with PR reviews
-- a local kvd node with genesis that closely mirrors mainnet to test out upcoming gov proposals
-- a kvd node and oracle to test out CDP top up bot
+- a fud node, bnbchain node (with rest servers), and the deputy for integration testing the web app
+- a bare fud node built from unmerged branches for helping with PR reviews
+- a local fud node with genesis that closely mirrors mainnet to test out upcoming gov proposals
+- a fud node and oracle to test out CDP top up bot
 - etc
 
 ## Proposal
@@ -25,8 +25,8 @@ Create go packages and/or cli tools only to generate a set of config files for d
 	- example:
 	```
 		generated_config/
-		|- kava/
-			|- .kvd/
+		|- fury/
+			|- .fud/
 				|- config.toml
 				|- genesis.json
 		|- binance/
@@ -51,7 +51,7 @@ Create go packages and/or cli tools only to generate a set of config files for d
 ### Disadvantages
 
 - requires working knowledge of docker / docker-compose
-- services need to be packaged into docker containers (although for the web app, it could run outside docker while interacting with kava/bnb rest servers running in docker)
+- services need to be packaged into docker containers (although for the web app, it could run outside docker while interacting with fury/bnb rest servers running in docker)
 - there might be need to send in txs after a testnet launches to create CDPs, auctions, etc. There is not obvious place for this type of configuration to live in this framework
 
 ### Generating Config

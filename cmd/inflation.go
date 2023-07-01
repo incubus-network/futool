@@ -6,7 +6,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/kava-labs/kvtool/kavaclient"
+	"github.com/incubus-network/futool/furyclient"
 )
 
 func InflationRootCmd() *cobra.Command {
@@ -15,7 +15,7 @@ func InflationRootCmd() *cobra.Command {
 		Short: "Various utilities for checking realized inflation",
 	}
 
-	cmd.PersistentFlags().StringVar(&kavaGrpcUrl, "node", "https://grpc.data.kava.io:443", "kava GRPC url to run queries against")
+	cmd.PersistentFlags().StringVar(&furyGrpcUrl, "node", "https://grpc.data.fury.io:443", "fury GRPC url to run queries against")
 
 	cmd.AddCommand(AverageInflation())
 
@@ -45,10 +45,10 @@ $ kvtool inflation avg -- -1000 3000000
 		RunE: func(_ *cobra.Command, args []string) error {
 			var end int64
 			var err error
-			fmt.Printf("using endpoint %s\n", kavaGrpcUrl)
-			k, err := kavaclient.NewClient(kavaGrpcUrl)
+			fmt.Printf("using endpoint %s\n", furyGrpcUrl)
+			k, err := furyclient.NewClient(furyGrpcUrl)
 			if err != nil {
-				panic(fmt.Sprintf("failed to create kava grpc client: %s", err))
+				panic(fmt.Sprintf("failed to create fury grpc client: %s", err))
 			}
 
 			// default to latest block if no end provided
