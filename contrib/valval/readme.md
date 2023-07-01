@@ -32,7 +32,7 @@ Have `docker` & `docker-compose` installed.
 
 This example uses the following, but the instructions should work for any genesis:
 * starting genesis file: `./example-genesis.json`
-* new chain id: `furymirror_2221-1`
+* new chain id: `furymirror_710-1`
 
 ## configure genesis to use our validators
 Replace top ten validators with our nodes:
@@ -41,7 +41,7 @@ Replace top ten validators with our nodes:
 ./gen.sh
 
 # replace validators in original genesis
-update-genesis-validators example-genesis.json --chain-id furymirror_2221-10
+update-genesis-validators example-genesis.json --chain-id furymirror_710-10
 
 # copy updated genesis to all validator config directories
 ./copy-gen.sh

@@ -255,9 +255,9 @@ add-eth-genesis-account-key bridge_relayer '.fury.users.bridge_relayer' 10000000
 
 # Accounts without keys
 # issuance module
-add-genesis-account fury1cj7njkw2g9fqx4e768zc75dp9sks8u9znxrf0w 1000000000000ufury,1000000000000swp,1000000000000hard
+add-genesis-account fury1cj7njkw2g9fqx4e768zc75dp9sks8u9zlc7m2x 1000000000000ufury,1000000000000swp,1000000000000hard
 # swap module
-add-genesis-account fury1mfru9azs5nua2wxcd4sq64g5nt7nn4n8s2w8cu 5000000000ufury,200000000btcb,1000000000hard,5000000000swp,103000000000musd
+add-genesis-account fury1mfru9azs5nua2wxcd4sq64g5nt7nn4n8u5n4a5 5000000000ufury,200000000btcb,1000000000hard,5000000000swp,103000000000musd
 
 # override `auth.accounts` array.
 # DO NOT CALL `add-genesis-account` AFTER HERE UNLESS IT IS AN EthAccount

@@ -24,7 +24,7 @@ chains:
     type: cosmos
     value:
       key: testkey
-      chain-id: furylocalnet_8888-1
+      chain-id: highbury_710-1
       rpc-addr: http://furynode:26657
       account-prefix: fury
       keyring-backend: test

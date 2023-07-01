@@ -1,6 +1,6 @@
 {
   "genesis_time": "2022-10-14T17:51:54.175631Z",
-  "chain_id": "furymirror_2221-1",
+  "chain_id": "furymirror_710-1",
   "initial_height": "11",
   "consensus_params": {
     "block": {
@@ -210,7 +210,7 @@
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "account_number": "1",
-          "address": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+          "address": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
           "pub_key": null,
           "sequence": "0"
         },
@@ -594,7 +594,7 @@
           ]
         },
         {
-          "address": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+          "address": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
           "coins": [
             {
               "amount": "10000000000000000",
@@ -3647,7 +3647,7 @@
             "blockable": false,
             "blocked_addresses": [],
             "denom": "ufury",
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
             "paused": false,
             "rate_limit": {
               "active": false,
@@ -3659,7 +3659,7 @@
             "blockable": false,
             "blocked_addresses": [],
             "denom": "swp",
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
             "paused": false,
             "rate_limit": {
               "active": false,
@@ -3671,7 +3671,7 @@
             "blockable": false,
             "blocked_addresses": [],
             "denom": "erc20/multichain/usdt",
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
             "paused": false,
             "rate_limit": {
               "active": false,
@@ -3683,7 +3683,7 @@
             "blockable": false,
             "blocked_addresses": [],
             "denom": "musd",
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
             "paused": false,
             "rate_limit": {
               "active": false,
@@ -3695,7 +3695,7 @@
             "blockable": false,
             "blocked_addresses": [],
             "denom": "erc20/multichain/usdc",
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
             "paused": false,
             "rate_limit": {
               "active": false,
@@ -3707,7 +3707,7 @@
             "blockable": false,
             "blocked_addresses": [],
             "denom": "hard",
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
             "paused": false,
             "rate_limit": {
               "active": false,
@@ -3719,7 +3719,7 @@
             "blockable": false,
             "blocked_addresses": [],
             "denom": "busd",
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
             "paused": false,
             "rate_limit": {
               "active": false,
@@ -3731,7 +3731,7 @@
             "blockable": false,
             "blocked_addresses": [],
             "denom": "btcb",
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
             "paused": false,
             "rate_limit": {
               "active": false,
@@ -3743,7 +3743,7 @@
             "blockable": false,
             "blocked_addresses": [],
             "denom": "bnb",
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
             "paused": false,
             "rate_limit": {
               "active": false,
@@ -3755,7 +3755,7 @@
             "blockable": false,
             "blocked_addresses": [],
             "denom": "xrpb",
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
             "paused": false,
             "rate_limit": {
               "active": false,

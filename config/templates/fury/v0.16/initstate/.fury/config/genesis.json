@@ -13,7 +13,7 @@
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "account_number": "0",
-          "address": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+          "address": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
           "pub_key": null,
           "sequence": "0"
         },
@@ -397,7 +397,7 @@
           ]
         },
         {
-          "address": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+          "address": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
           "coins": [
             {
               "amount": "10000000000000000",

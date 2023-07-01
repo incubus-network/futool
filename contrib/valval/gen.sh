@@ -11,7 +11,7 @@ for ((i = 1; i <= num_validators; i++)); do
   # only generate home dirs that don't exist
   if [ ! -d $home ]; then
     there_is_a_new_validator=true
-    fury init val$i --home $home --chain-id furymirror_2221-1 >/dev/null 2>&1
+    fury init val$i --home $home --chain-id furymirror_710-1 >/dev/null 2>&1
 
     rm -rf $home/data
     rm $home/config/genesis.json

@@ -18,7 +18,7 @@ const (
 
 	relayerImageTag = "fury/relayer:v2.2.0"
 
-	furyChainId = "furylocalnet_8888-1"
+	furyChainId = "highbury_710-1"
 	ibcChainId  = "furylocalnet_8889-2"
 )
 

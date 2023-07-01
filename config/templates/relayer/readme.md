@@ -30,14 +30,14 @@ Then make the following updates:
   * `rpc-addr`: http://ibcnode:26657
   * `gas-prices`: 0.01uatom (the primary denom of `ibcchain` is `uatom`)
 * update `fury` values:
-  * `chain-id`: furylocalnet_8888-1
+  * `chain-id`: highbury_710-1
   * `rpc-addr`: http://furynode:26657
 
 here's the diff:
 ```diff
 10,12c10,12
 <       key: default
-<       chain-id: fury_2222-10
+<       chain-id: fury_710-10
 <       rpc-addr: <some-https-rpc-mainnet-node-address>
 ---
 >       key: testkey
@@ -49,11 +49,11 @@ here's the diff:
 >       gas-prices: 0.01uatom
 26,28c26,28
 <       key: default
-<       chain-id: fury_2222-10
+<       chain-id: fury_710-10
 <       rpc-addr: <some-https-rpc-mainnet-node-address>
 ---
 >       key: testkey
->       chain-id: furylocalnet_8888-1
+>       chain-id: highbury_710-1
 >       rpc-addr: http://furynode:26657
 ```
 4. generate the keys used by the relayer. we use the `relayer` account from [`addresses.json`](../../common/addresses.json):

@@ -1,6 +1,6 @@
 {
   "genesis_time": "2023-06-02T20:54:46.166481Z",
-  "chain_id": "furylocalnet_8888-1",
+  "chain_id": "highbury_710-1",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -53,7 +53,7 @@
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "account_number": "0",
-          "address": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+          "address": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
           "pub_key": null,
           "sequence": "0"
         },
@@ -596,7 +596,7 @@
           ]
         },
         {
-          "address": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+          "address": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
           "coins": [
             {
               "denom": "bfury-furyvaloper1ypjp0m04pyp73hwgtc0dgkx0e9rrydeckewa42",
@@ -3022,7 +3022,7 @@
       "params": {
         "assets": [
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
             "denom": "ufury",
             "blocked_addresses": [],
             "paused": false,
@@ -3034,7 +3034,7 @@
             }
           },
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
             "denom": "swp",
             "blocked_addresses": [],
             "paused": false,
@@ -3046,7 +3046,7 @@
             }
           },
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
             "denom": "erc20/multichain/usdt",
             "blocked_addresses": [],
             "paused": false,
@@ -3058,7 +3058,7 @@
             }
           },
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
             "denom": "musd",
             "blocked_addresses": [],
             "paused": false,
@@ -3070,7 +3070,7 @@
             }
           },
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
             "denom": "erc20/multichain/usdc",
             "blocked_addresses": [],
             "paused": false,
@@ -3082,7 +3082,7 @@
             }
           },
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
             "denom": "hard",
             "blocked_addresses": [],
             "paused": false,
@@ -3094,7 +3094,7 @@
             }
           },
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
             "denom": "busd",
             "blocked_addresses": [],
             "paused": false,
@@ -3106,7 +3106,7 @@
             }
           },
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
             "denom": "btcb",
             "blocked_addresses": [],
             "paused": false,
@@ -3118,7 +3118,7 @@
             }
           },
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
             "denom": "bnb",
             "blocked_addresses": [],
             "paused": false,
@@ -3130,7 +3130,7 @@
             }
           },
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
             "denom": "xrpb",
             "blocked_addresses": [],
             "paused": false,
