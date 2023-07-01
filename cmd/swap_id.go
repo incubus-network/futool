@@ -7,7 +7,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/fury-labs/fury/x/bep3/types"
+	"github.com/kava-labs/kava/x/bep3/types"
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v2"
 
@@ -16,10 +16,10 @@ import (
 
 var (
 	furyDeputiesStrings map[string]string = map[string]string{
-		"bnb":  "fury1r4v2zdhdalfj2ydazallqvrus9fkphmglhn6u6",
-		"btcb": "fury14qsmvzprqvhwmgql9fr0u3zv9n2qla8zhnm5pc",
-		"busd": "fury1hh4x3a4suu5zyaeauvmv7ypf7w9llwlfufjmuu",
-		"xrpb": "fury1c0ju5vnwgpgxnrktfnkccuth9xqc68dcdpzpas",
+		"bnb":  "fury1r4v2zdhdalfj2ydazallqvrus9fkphmgnfwgej",
+		"btcb": "fury14qsmvzprqvhwmgql9fr0u3zv9n2qla8zmdxxys",
+		"busd": "fury1hh4x3a4suu5zyaeauvmv7ypf7w9llwlfsh0fe5",
+		"xrpb": "fury1c0ju5vnwgpgxnrktfnkccuth9xqc68dcpllncc",
 	}
 	bnbDeputiesStrings map[string]string = map[string]string{
 		"bnb":  "bnb1jh7uv2rm6339yue8k4mj9406k3509kr4wt5nxn",

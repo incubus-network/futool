@@ -14,13 +14,13 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/fury-labs/go-tools/grpc"
-	"github.com/fury-labs/go-tools/signing"
+	"github.com/kava-labs/go-tools/grpc"
+	"github.com/kava-labs/go-tools/signing"
 
-	"github.com/fury-labs/fury/app"
-	earntypes "github.com/fury-labs/fury/x/earn/types"
-	issuancetypes "github.com/fury-labs/fury/x/issuance/types"
-	liquidtypes "github.com/fury-labs/fury/x/liquid/types"
+	"github.com/kava-labs/kava/app"
+	earntypes "github.com/kava-labs/kava/x/earn/types"
+	issuancetypes "github.com/kava-labs/kava/x/issuance/types"
+	liquidtypes "github.com/kava-labs/kava/x/liquid/types"
 )
 
 const (

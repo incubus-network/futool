@@ -7,8 +7,8 @@ require (
 	github.com/Jeffail/gabs/v2 v2.6.0
 	github.com/cenkalti/backoff/v4 v4.1.3
 	github.com/cosmos/cosmos-sdk v0.46.11
-	github.com/fury-labs/go-tools v0.0.0-20221224222255-39c4be283202
-	github.com/fury-labs/fury v0.23.0
+	github.com/kava-labs/go-tools v0.0.0-20221224222255-39c4be283202
+	github.com/kava-labs/kava v0.23.0
 	github.com/otiai10/copy v1.6.0
 	github.com/spf13/cobra v1.6.1
 	github.com/tendermint/classic v0.0.0-20201012085102-0a11024b2668
@@ -180,9 +180,9 @@ require (
 
 replace (
 	// Use cosmos-sdk fork with backported fix for unsafe-reset-all, staking transfer events, and custom tally handler support
-	github.com/cosmos/cosmos-sdk => github.com/fury-labs/cosmos-sdk v0.46.11-fury.1
+	github.com/cosmos/cosmos-sdk => github.com/kava-labs/cosmos-sdk v0.46.11-kava.1
 	// Use ethermint fork that respects min-gas-price with NoBaseFee true and london enabled, and includes eip712 support
-	github.com/evmos/ethermint => github.com/fury-labs/ethermint v0.21.0-fury-v23-1
+	github.com/evmos/ethermint => github.com/kava-labs/ethermint v0.21.0-kava-v23-1
 	// Use the cosmos modified protobufs
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
 	// Downgraded to avoid bugs in following commits which causes "version does not exist" errors
@@ -190,5 +190,5 @@ replace (
 	// Use cometbft fork of tendermint
 	github.com/tendermint/tendermint => github.com/cometbft/cometbft v0.34.27
 	// Indirect dependencies still use tendermint/tm-db
-	github.com/tendermint/tm-db => github.com/fury-labs/tm-db v0.6.7-fury.1
+	github.com/tendermint/tm-db => github.com/kava-labs/tm-db v0.6.7-kava.1
 )

@@ -19,7 +19,7 @@ set -e
 
 mkdir -p scratch
 
-DATA=./scratch/.fury
+DATA=$HOME/.fury
 DEST=${DEST:-./config/templates/fury/master/initstate/.fury}
 DENOM=${DENOM:-ufury}
 ADDRESSES=./config/common/addresses.json

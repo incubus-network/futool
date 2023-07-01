@@ -28,8 +28,8 @@ import (
 	pvtypes "github.com/tendermint/tendermint/privval"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/fury-labs/fury/app"
-	committeetypes "github.com/fury-labs/fury/x/committee/types"
+	"github.com/kava-labs/kava/app"
+	committeetypes "github.com/kava-labs/kava/x/committee/types"
 )
 
 // flag options for the command
