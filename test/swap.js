@@ -1,10 +1,10 @@
-const Fury = require('@fury-labs/javascript-sdk');
+const Fury = require('@kava-labs/javascript-sdk');
 const { sleep } = require("./helpers.js");
 
 const incomingSwap = async (furyClient, bnbClient, assets, denom, amount) => {
   const assetInfo = assets[denom];
   if(!assetInfo) {
-      throw new Error(denom + " is not supported by kvtool BEP3");
+      throw new Error(denom + " is not supported by futool BEP3");
   }
 
   // Assets involved in the swap
@@ -83,7 +83,7 @@ const incomingSwap = async (furyClient, bnbClient, assets, denom, amount) => {
 const outgoingSwap = async(furyClient, bnbClient, assets, denom, amount) => {
   const assetInfo = assets[denom];
   if(!assetInfo) {
-    throw new Error(denom + " is not supported by kvtool BEP3");
+    throw new Error(denom + " is not supported by futool BEP3");
   }
 
   const sender = furyClient.wallet.address;

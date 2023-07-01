@@ -3,7 +3,7 @@ package cmd
 import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/incubus-network/fury/app"
+	"github.com/kava-labs/kava/app"
 	"github.com/spf13/cobra"
 
 	"github.com/incubus-network/futool/cmd/testnet"
@@ -12,7 +12,7 @@ import (
 var furyGrpcUrl string
 
 var rootCmd = &cobra.Command{
-	Use:   "kvtool",
+	Use:   "futool",
 	Short: "Dev tools for working with the fury blockchain.",
 }
 

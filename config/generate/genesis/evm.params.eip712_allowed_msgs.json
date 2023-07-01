@@ -141,8 +141,8 @@
     "nested_types": []
   },
   {
-    "msg_type_url": "/fury.incentive.v1beta1.MsgClaimUSDXMintingReward",
-    "msg_value_type_name": "MsgValueIncentiveClaimUSDXMintingReward",
+    "msg_type_url": "/fury.incentive.v1beta1.MsgClaimMUSDMintingReward",
+    "msg_value_type_name": "MsgValueIncentiveClaimMUSDMintingReward",
     "value_types": [
       {
         "name": "sender",

@@ -21,7 +21,7 @@ Time must be in UTC. Format times like YYYY-MM-DDThh:mm.
 `,
 		Args: cobra.ExactArgs(1),
 		Example: `Estimate height on May 22, 2050 at 15:00 UTC:
-$ kvtool estimate-block-height 2050-05-22T15:00
+$ futool estimate-block-height 2050-05-22T15:00
 `,
 		RunE: func(_ *cobra.Command, args []string) error {
 			numRetries := 5

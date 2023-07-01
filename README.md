@@ -1,4 +1,4 @@
-# kvtool
+# futool
 
 Assorted dev tools for working with the fury blockchain.
 
@@ -10,19 +10,19 @@ To get started with running a local fury network, check out our docs on [Getting
 make install
 ```
 
-## Initialization: kvtool testnet
+## Initialization: futool testnet
 
-Note that the most accurate documentation lives in the CLI itself. It's recommended you read through `kvtool testnet bootstrap --help`.
+Note that the most accurate documentation lives in the CLI itself. It's recommended you read through `futool testnet bootstrap --help`.
 
 Option 1:
 
-The `kvtool testnet bootstrap` command starts a local Fury blockchain as a
+The `futool testnet bootstrap` command starts a local Fury blockchain as a
 background docker container called `generated-furynode-1`. The bootstrap command
 only starts the Fury blockchain and Fury REST server services.
 
 ```bash
 # Start new testnet
-kvtool testnet bootstrap --fury.configTemplate master
+futool testnet bootstrap --fury.configTemplate master
 ```
 
 The endpoints are exposed to localhost:
@@ -39,17 +39,17 @@ Option 2:
 To generate a testnet for fury, binance chain, and a deputy that relays swaps between them:
 
 ```bash
-# Generate a new kvtool configuration based off template files
-kvtool testnet gen-config fury binance deputy --fury.configTemplate master
+# Generate a new futool configuration based off template files
+futool testnet gen-config fury binance deputy --fury.configTemplate master
 
 # Pull latest docker images. Docker must be running.
 cd ./full_configs/generated && docker-compose pull
 
 # start the testnet
-kvtool testnet up
+futool testnet up
 
 # When finished with usage, shut down the processes
-kvtool testnet down
+futool testnet down
 ```
 
 ### Flags
@@ -63,20 +63,20 @@ Example:
 
 ```bash
 # Run Fury testnet with an additional IBC chain
-kvtool testnet bootstrap --fury.configTemplate master --ibc
+futool testnet bootstrap --fury.configTemplate master --ibc
 ```
 
 `--geth`: Run a go-ethereum node alongside the Fury testnet. The geth node is
 initialized with the Fury Bridge contract and test ERC20 tokens. The Fury EVM
 also includes Multicall contracts deployed. The contract addresses can be found
-on the [Fury-Labs/fury-bridge](https://github.com/Fury-Labs/fury-bridge#development)
+on the [Kava-Labs/fury-bridge](https://github.com/Kava-Labs/fury-bridge#development)
 README.
 
 Example:
 
 ```bash
 # Run the testnet with a geth node in parallel
-kvtool testnet bootstrap --fury.configTemplate master --geth
+futool testnet bootstrap --fury.configTemplate master --geth
 ```
 
 Geth node ports are **not** default, as the Fury EVM will use default JSON-RPC
@@ -110,16 +110,16 @@ Test a chain upgrade from v0.19.2 -> v0.21.0 at height 15.
 
 Using an overridden docker image tag:
 ```
-$ FURY_TAG=v0.21.0 kvtool testnet bootstrap --upgrade-name v0.21.0 --upgrade-height 15 --upgrade-base-image-tag v0.19.2
+$ FURY_TAG=v0.21.0 futool testnet bootstrap --upgrade-name v0.21.0 --upgrade-height 15 --upgrade-base-image-tag v0.19.2
 ```
 
 Using a config template:
 ```
 Test a chain upgrade from v0.19.2 -> v0.21.0:
-$ kvtool testnet bootstrap --fury.configTemplate v0.21 --upgrade-name v0.21.0 --upgrade-height 15 --upgrade-base-image-tag v0.19.2
+$ futool testnet bootstrap --fury.configTemplate v0.21 --upgrade-name v0.21.0 --upgrade-height 15 --upgrade-base-image-tag v0.19.2
 ```
 
-## Usage: kvtool testnet
+## Usage: futool testnet
 
 REST APIs for both blockchains are exposed on localhost:
 
@@ -195,12 +195,12 @@ The master template includes a pre-deployed ERC20 token with the name "USD Coin"
 Token Address: `0xeA7100edA2f805356291B0E55DaD448599a72C6d`
 Funded Account: `whale2` - `0x03db6b11F47d074a532b9eb8a98aB7AdA5845087` (1000 USDC)
 
-## Shut down: kvtool testnet
+## Shut down: futool testnet
 
-When you're done make sure to shut down the kvtool testnet. Always shut down the kvtool testnets before pulling the latest image from docker, otherwise you may experience errors.
+When you're done make sure to shut down the futool testnet. Always shut down the futool testnets before pulling the latest image from docker, otherwise you may experience errors.
 
 ```bash
-kvtool testnet down
+futool testnet down
 ```
 
 # Updating fury genesis

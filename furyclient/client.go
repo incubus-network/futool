@@ -11,7 +11,7 @@ import (
 	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	furygrpc "github.com/fury-labs/go-tools/grpc"
+	furygrpc "github.com/kava-labs/go-tools/grpc"
 )
 
 type Client struct {

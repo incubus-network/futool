@@ -225,7 +225,7 @@ add-eth-genesis-account-key user '.fury.users.user' 1000000000ufury
 
 
 ibcdenom='ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2' # ATOM on mainnet
-whalefunds=1000000000000ufury,10000000000000000bfury-"$valoper",10000000000000000bnb,10000000000000000btcb,10000000000000000busd,1000000000000000000hard,1000000000000000000swp,10000000000000000usdx,10000000000000000xrpb,10000000000000000"$ibcdenom"
+whalefunds=1000000000000ufury,10000000000000000bfury-"$valoper",10000000000000000bnb,10000000000000000btcb,10000000000000000busd,1000000000000000000hard,1000000000000000000swp,10000000000000000musd,10000000000000000xrpb,10000000000000000"$ibcdenom"
 # whale account
 whale=$(get-address '.fury.users.whale')
 export whale
@@ -257,7 +257,7 @@ add-eth-genesis-account-key bridge_relayer '.fury.users.bridge_relayer' 10000000
 # issuance module
 add-genesis-account fury1cj7njkw2g9fqx4e768zc75dp9sks8u9znxrf0w 1000000000000ufury,1000000000000swp,1000000000000hard
 # swap module
-add-genesis-account fury1mfru9azs5nua2wxcd4sq64g5nt7nn4n8s2w8cu 5000000000ufury,200000000btcb,1000000000hard,5000000000swp,103000000000usdx
+add-genesis-account fury1mfru9azs5nua2wxcd4sq64g5nt7nn4n8s2w8cu 5000000000ufury,200000000btcb,1000000000hard,5000000000swp,103000000000musd
 
 # override `auth.accounts` array.
 # DO NOT CALL `add-genesis-account` AFTER HERE UNLESS IT IS AN EthAccount
@@ -386,7 +386,7 @@ set-app-state pricefeed
 
 # x/savings supported denoms
 jq '.app_state.savings.params.supported_denoms =
-  [ "bfury-'"$valoper"'", "usdx", "ufury", "hard", "swp", "bfury", "erc20/multichain/usdc" ]' \
+  [ "bfury-'"$valoper"'", "musd", "ufury", "hard", "swp", "bfury", "erc20/multichain/usdc" ]' \
   $DATA/config/genesis.json | sponge $DATA/config/genesis.json
 
 # x/swap (uses $whale)

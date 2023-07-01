@@ -1,4 +1,4 @@
-const Fury = require('@fury-labs/javascript-sdk');
+const Fury = require('@kava-labs/javascript-sdk');
 const BnbApiClient = require('@binance-chain/javascript-sdk');
 const { sleep } = require("./helpers.js");
 
@@ -17,7 +17,7 @@ const setup = async (furyEndpoint, binanceEndpoint, furyMnemonic, binanceMnemoni
     bnbClient.chainId = "Binance-Chain-Tigris"
     await bnbClient.initChain()
 
-    // Override the default transaction broadcast endpoint with the tendermint RPC endpoint on the binance-chain node (port 26658 in kvtool)
+    // Override the default transaction broadcast endpoint with the tendermint RPC endpoint on the binance-chain node (port 26658 in futool)
     bnbClient.setBroadcastDelegate(async(signedTx) => {
       const signedBz = signedTx.serialize()
       console.log(signedBz)

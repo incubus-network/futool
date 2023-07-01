@@ -1,6 +1,6 @@
 # relayer
 
-this directory contains the configuration for the [relayer](https://github.com/Fury-Labs/relayer)
+this directory contains the configuration for the [relayer](https://github.com/Kava-Labs/relayer)
 which is the service responsible for the initial setup of the ibc channel between `fury` and the
 `ibcchain` spun up by the `--ibc` flag of the `testnet bootstrap` command.
 
@@ -11,8 +11,8 @@ here we use `v2.2.0`, published in a container to docker hub. to build & deploy 
 see "build & deploy new relayer images".
 
 1. start up a local fury & ibc chain
-  * generate config for fury and ibcchain: `kvtool testnet gen-config fury --ibc`
-  * run the networks: `kvtool testnet up -d`
+  * generate config for fury and ibcchain: `futool testnet gen-config fury --ibc`
+  * run the networks: `futool testnet up -d`
 2. create a temporary directory to build the configuration in. here, we use `$PWD/temp`
   * `mkdir temp`
 3. we use the docker container to run `rly`, the relayer's cli. initialize the config by running the following commands:
@@ -84,7 +84,7 @@ Note that there will always be a diff when regenerating the keys, as the create 
 
 ## build & deploy relayer images
 
-1. Checkout the [relayer repo](https://github.com/Fury-Labs/relayer).
+1. Checkout the [relayer repo](https://github.com/Kava-Labs/relayer).
 Fetch & merge [upstream](https://github.com/cosmos/relayer) changes if necessary.
 2. Checkout the desired tag: `git checkout $TAG`
 3. cross-platform build & push the images as the correct tag:

@@ -3,7 +3,7 @@ This allows you to do things like start networks from nonzero height exports.
 
 The problem with nonzero height exports is that even if your validator has a controlling share of the power, it will not produce blocks until it is caught up, but it won't consider itself caught up until it can contact at least one other peer in the network.
 
-Maybe someday this is built into kvtool or better automated. For now, this is how to do it manually.
+Maybe someday this is built into futool or better automated. For now, this is how to do it manually.
 
 # UPDATE & DISCLAIMER
 
@@ -59,7 +59,7 @@ You can override the tag with the `FURY_IMAGE_TAG` env variable.
 
 To use a local version, first build & tag the fury image:
 ```
-# wherever the Fury-Labs/fury git repo is
+# wherever the Kava-Labs/fury git repo is
 cd ~/fury
 docker build -f Dockerfile-rocksdb -t fury/fury:local .
 cd -

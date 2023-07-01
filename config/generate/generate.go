@@ -8,7 +8,7 @@ import (
 
 var (
 	// ConfigTemplatesDir is the absolute path to the config templates directory.
-	// It's set at build time using an -X flag. eg -ldflags "-X github.com/incubus-network/futool/config/generate.ConfigTemplatesDir=/home/user1/kvtool/config/templates"
+	// It's set at build time using an -X flag. eg -ldflags "-X github.com/incubus-network/futool/config/generate.ConfigTemplatesDir=/home/user1/futool/config/templates"
 	ConfigTemplatesDir string
 )
 
