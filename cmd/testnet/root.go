@@ -47,7 +47,7 @@ func Cmd() *cobra.Command {
 
 	Processes are run via docker-compose. This command generates a docker-compose.yaml and other necessary config files that are synchronized with each so the services all work together.
 
-	By default this command will generate configuration for a kvd node and rest server, a binance node and rest server, and a deputy. And then 'run docker-compose up'.
+	By default this command will generate configuration for a fud node and rest server, a binance node and rest server, and a deputy. And then 'run docker-compose up'.
 	This is the equivalent of running 'testnet gen-config fury binance deputy' then 'testnet up'.
 
 	Docker compose files are (by default) written to %s`, defaultGeneratedConfigDir),
