@@ -1,6 +1,6 @@
 // Endpoints
-const FURY_ENDPOINT_KVTOOL = "http://localhost:1317";
-const BINANCE_CHAIN_ENDPOINT_KVTOOL = "http://localhost:8080";
+const FURY_ENDPOINT_FUTOOL = "http://localhost:1317";
+const BINANCE_CHAIN_ENDPOINT_FUTOOL = "http://localhost:8080";
 
 // Mnemonics
 const LOADED_FURY_MNEMONIC = "arrive guide way exit polar print kitchen hair series custom siege afraid shrug crew fashion mind script divorce pattern trust project regular robust safe";
@@ -39,8 +39,8 @@ const BEP3_ASSETS = {
 }
 
 module.exports = {
-  FURY_ENDPOINT_KVTOOL,
-  BINANCE_CHAIN_ENDPOINT_KVTOOL,
+  FURY_ENDPOINT_FUTOOL,
+  BINANCE_CHAIN_ENDPOINT_FUTOOL,
   LOADED_FURY_MNEMONIC,
   LOADED_BINANCE_CHAIN_MNEMONIC,
   BEP3_ASSETS

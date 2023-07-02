@@ -31,7 +31,7 @@ This command runs local networks by performing the following three steps:
 
 # Templates
 The building blocks of the bootstrap command's services are templates which are defined in the
-directory kvtool/config/templates. As of right now, the template you run Fury with is configurable
+directory futool/config/templates. As of right now, the template you run Fury with is configurable
 at runtime via the 'fury.configTemplate' flag. The Fury templates contain fury config directories
 (including a genesis.json) that are supported with the corresponding fury docker image tag.
 
@@ -63,19 +63,19 @@ the chain. The committee uses First-Pass-the-Post voting so passes as soon as it
 The committee member account votes on the proposal and then we wait for the upgrade height to be
 reached. At that point, the chain halts and is restarted with the updated image tag.`,
 		Example: `Run fury node with particular template:
-$ kvtool testnet bootstrap --fury.configTemplate v0.12
+$ futool testnet bootstrap --fury.configTemplate v0.12
 
 Run fury & another chain with open IBC channel & relayer:
-$ kvtool testnet bootstrap --ibc
+$ futool testnet bootstrap --ibc
 
 Run fury & an ethereum node:
-$ kvtool testnet bootstrap --geth
+$ futool testnet bootstrap --geth
 
 The master template supports dynamic override of the Fury node's container image:
-$ FURY_TAG=v0.21.0 kvtool testnet bootstrap
+$ FURY_TAG=v0.21.0 futool testnet bootstrap
 
 Test a chain upgrade from v0.19.2 -> v0.21.0:
-$ FURY_TAG=v0.21.0 kvtool testnet bootstrap --upgrade-name v0.21.0 --upgrade-height 15 --upgrade-base-image-tag v0.19.2
+$ FURY_TAG=v0.21.0 futool testnet bootstrap --upgrade-name v0.21.0 --upgrade-height 15 --upgrade-base-image-tag v0.19.2
 `,
 		Args: cobra.NoArgs,
 		RunE: func(_ *cobra.Command, _ []string) error {
@@ -272,7 +272,7 @@ func writeUpgradeProposal() (string, error) {
 	content := fmt.Sprintf(`{
 		"@type": "/cosmos.upgrade.v1beta1.SoftwareUpgradeProposal",
 		"title": "Automated Chain Upgrade",
-		"description": "An auto-magical chain upgrade performed by kvtool.",
+		"description": "An auto-magical chain upgrade performed by futool.",
 		"plan": { "name": "%s", "height": "%d" }
 	}`, chainUpgradeName, chainUpgradeHeight)
 	// write the file to a location inside the container

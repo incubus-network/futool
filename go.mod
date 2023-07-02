@@ -8,8 +8,7 @@ require (
 	github.com/cenkalti/backoff/v4 v4.1.3
 	github.com/cosmos/cosmos-sdk v0.46.11
 	github.com/kava-labs/go-tools v0.0.0-20221224222255-39c4be283202
-	github.com/incubus-network/fury v0.0.1
-	github.com/kava-labs/kvtool v0.0.0
+	github.com/kava-labs/kava v0.23.0
 	github.com/otiai10/copy v1.6.0
 	github.com/spf13/cobra v1.6.1
 	github.com/tendermint/classic v0.0.0-20201012085102-0a11024b2668

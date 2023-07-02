@@ -1,11 +1,11 @@
-const {FURY_ENDPOINT_KVTOOL, BINANCE_CHAIN_ENDPOINT_KVTOOL, LOADED_FURY_MNEMONIC,
+const {FURY_ENDPOINT_FUTOOL, BINANCE_CHAIN_ENDPOINT_FUTOOL, LOADED_FURY_MNEMONIC,
     LOADED_BINANCE_CHAIN_MNEMONIC, BEP3_ASSETS } = require("./config.js");
-const { setup, loadFuryDeputies } = require("./kvtool.js");
+const { setup, loadFuryDeputies } = require("./futool.js");
 const { incomingSwap, outgoingSwap } = require("./swap.js");
 
 var main = async () => {
-    // Initialize clients compatible with kvtool
-    const clients = await setup(FURY_ENDPOINT_KVTOOL, BINANCE_CHAIN_ENDPOINT_KVTOOL,
+    // Initialize clients compatible with futool
+    const clients = await setup(FURY_ENDPOINT_FUTOOL, BINANCE_CHAIN_ENDPOINT_FUTOOL,
         LOADED_FURY_MNEMONIC, LOADED_BINANCE_CHAIN_MNEMONIC);
 
     // Load each Fury deputy hot wallet

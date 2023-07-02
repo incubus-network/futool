@@ -31,16 +31,16 @@ The amount minted is converted into an average APR (pre second period) & extrapo
 End height is optional, defaults to latest block. If start height is negative, it will subtract from end.`,
 		Args: cobra.MatchAll(cobra.MinimumNArgs(1), cobra.MaximumNArgs(2)),
 		Example: `calculate inflation over a block range:
-$ kvtool inflation avg 2000000 2500000
+$ futool inflation avg 2000000 2500000
 
 calculate inflation from block 2M to present:
-$ kvtool inflation avg 2000000
+$ futool inflation avg 2000000
 
 calculate inflation from last 10 blocks ("--" is necessary to interpret as an argument):
-$ kvtool inflation avg -- -10
+$ futool inflation avg -- -10
 
 calculate inflation over the 1000 blocks before height 3000000:
-$ kvtool inflation avg -- -1000 3000000
+$ futool inflation avg -- -1000 3000000
 `,
 		RunE: func(_ *cobra.Command, args []string) error {
 			var end int64

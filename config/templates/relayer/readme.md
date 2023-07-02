@@ -11,8 +11,8 @@ here we use `v2.2.0`, published in a container to docker hub. to build & deploy 
 see "build & deploy new relayer images".
 
 1. start up a local fury & ibc chain
-  * generate config for fury and ibcchain: `kvtool testnet gen-config fury --ibc`
-  * run the networks: `kvtool testnet up -d`
+  * generate config for fury and ibcchain: `futool testnet gen-config fury --ibc`
+  * run the networks: `futool testnet up -d`
 2. create a temporary directory to build the configuration in. here, we use `$PWD/temp`
   * `mkdir temp`
 3. we use the docker container to run `rly`, the relayer's cli. initialize the config by running the following commands:

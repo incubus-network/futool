@@ -3,7 +3,7 @@ This allows you to do things like start networks from nonzero height exports.
 
 The problem with nonzero height exports is that even if your validator has a controlling share of the power, it will not produce blocks until it is caught up, but it won't consider itself caught up until it can contact at least one other peer in the network.
 
-Maybe someday this is built into kvtool or better automated. For now, this is how to do it manually.
+Maybe someday this is built into futool or better automated. For now, this is how to do it manually.
 
 # UPDATE & DISCLAIMER
 
