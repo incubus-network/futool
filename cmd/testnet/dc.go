@@ -14,12 +14,12 @@ func DcCmd() *cobra.Command {
 		Example: `Follow logs of running chain ("--" necessary to correctly interpret docker-compose flags):
 $ kvtool testnet dc -- logs -f
 
-Get a shell in the kava node container:
-$ kvtool testnet dc exec kavanode /bin/bash
+Get a shell in the fury node container:
+$ kvtool testnet dc exec furynode /bin/bash
 
-Run some kava cli commands:
-$ kvtool testnet dc exec kavanode kava keys add magic-account
-$ kvtool testnet dc exec kavanode -- kava tx bank send whale <address> 1000000000ukava --gas-prices 1000ukava -y`,
+Run some fury cli commands:
+$ kvtool testnet dc exec furynode fury keys add magic-account
+$ kvtool testnet dc exec furynode -- fury tx bank send whale <address> 1000000000ufury --gas-prices 1000ufury -y`,
 		Args: cobra.ArbitraryArgs,
 		RunE: func(_ *cobra.Command, args []string) error {
 			cmd := []string{"docker-compose", "--file", generatedPath("docker-compose.yaml")}

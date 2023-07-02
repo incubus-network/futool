@@ -6,14 +6,14 @@ import (
 	"github.com/kava-labs/kava/app"
 	"github.com/spf13/cobra"
 
-	"github.com/kava-labs/kvtool/cmd/testnet"
+	"github.com/incubus-network/futool/cmd/testnet"
 )
 
-var kavaGrpcUrl string
+var furyGrpcUrl string
 
 var rootCmd = &cobra.Command{
-	Use:   "kvtool",
-	Short: "Dev tools for working with the kava blockchain.",
+	Use:   "futool",
+	Short: "Dev tools for working with the fury blockchain.",
 }
 
 // Execute runs the root command.

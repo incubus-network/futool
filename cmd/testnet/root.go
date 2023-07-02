@@ -8,24 +8,24 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/kava-labs/kvtool/config/generate"
+	"github.com/incubus-network/futool/config/generate"
 )
 
 const (
-	kavaServiceName    = "kava"
+	furyServiceName    = "fury"
 	binanceServiceName = "binance"
 	deputyServiceName  = "deputy"
 
-	relayerImageTag = "kava/relayer:v2.2.0"
+	relayerImageTag = "fury/relayer:v2.2.0"
 
-	kavaChainId = "kavalocalnet_8888-1"
-	ibcChainId  = "kavalocalnet_8889-2"
+	furyChainId = "furylocalnet_8888-1"
+	ibcChainId  = "furylocalnet_8889-2"
 )
 
 var (
 	ibcFlag            bool
 	gethFlag           bool
-	kavaConfigTemplate string
+	furyConfigTemplate string
 
 	chainUpgradeName         string
 	chainUpgradeHeight       int64
@@ -34,21 +34,21 @@ var (
 	generatedConfigDir        string
 	defaultGeneratedConfigDir string = filepath.Join(generate.ConfigTemplatesDir, "../..", "full_configs", "generated")
 
-	supportedServices = []string{kavaServiceName, binanceServiceName, deputyServiceName}
+	supportedServices = []string{furyServiceName, binanceServiceName, deputyServiceName}
 )
 
-// Cmd is the CLI command for starting kava testnets with docker
+// Cmd is the CLI command for starting fury testnets with docker
 func Cmd() *cobra.Command {
 	var testnetCmd = &cobra.Command{
 		Use:     "testnet",
 		Aliases: []string{"t"},
-		Short:   "Start a default kava and binance local testnet with a deputy. Stop with Ctrl-C and remove with 'testnet down'. Use sub commands for more options.",
-		Long: fmt.Sprintf(`This command helps run local kava testnets composed of various independent processes.
+		Short:   "Start a default fury and binance local testnet with a deputy. Stop with Ctrl-C and remove with 'testnet down'. Use sub commands for more options.",
+		Long: fmt.Sprintf(`This command helps run local fury testnets composed of various independent processes.
 
 	Processes are run via docker-compose. This command generates a docker-compose.yaml and other necessary config files that are synchronized with each so the services all work together.
 
 	By default this command will generate configuration for a kvd node and rest server, a binance node and rest server, and a deputy. And then 'run docker-compose up'.
-	This is the equivalent of running 'testnet gen-config kava binance deputy' then 'testnet up'.
+	This is the equivalent of running 'testnet gen-config fury binance deputy' then 'testnet up'.
 
 	Docker compose files are (by default) written to %s`, defaultGeneratedConfigDir),
 		Args: cobra.NoArgs,

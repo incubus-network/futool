@@ -104,7 +104,7 @@ Validators are replaced by in order of highest voting power.`,
 	updateGenesisValidatorsCmd.Flags().StringVar(
 		&ugvGodCommitteeMember,
 		"inject-god-committee", "",
-		"Optionally inject a god committee with this address as the only member.\nExpects kava address of sole committee member.\nAssumes next committee id is len(committees) + 1.",
+		"Optionally inject a god committee with this address as the only member.\nExpects fury address of sole committee member.\nAssumes next committee id is len(committees) + 1.",
 	)
 }
 
@@ -419,7 +419,7 @@ func UpdateGenesisFileWithNewValidators(
 		nextCommitteeId := uint64(len(committeeState.Committees) + 1)
 		godCommittee := committeetypes.MustNewMemberCommittee(
 			nextCommitteeId,
-			"Kava God Committee (testing only)",
+			"Fury God Committee (testing only)",
 			[]sdk.AccAddress{sdk.MustAccAddressFromBech32(ugvGodCommitteeMember)},
 			[]committeetypes.Permission{&committeetypes.GodPermission{}},
 			sdk.MustNewDecFromStr("0.667000000000000000"),

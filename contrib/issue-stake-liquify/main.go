@@ -5,7 +5,7 @@ import (
 	"log"
 	"sync"
 
-	"github.com/kava-labs/kvtool/contrib/issue-stake-liquify/config"
+	"github.com/incubus-network/futool/contrib/issue-stake-liquify/config"
 
 	"github.com/cosmos/cosmos-sdk/crypto/hd"
 	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
@@ -49,13 +49,13 @@ func main() {
 }
 
 // ProcessDelegationAllocations performs the following actions:
-// - fund each delegator account with the required amount of Kava (via dev-wallet issuing)
-// - stake the kava by designated weights to validators
-// - mint the bkava derivative token for all delegations
-// - deposit the liquid bonded kava into the earn module
+// - fund each delegator account with the required amount of Fury (via dev-wallet issuing)
+// - stake the fury by designated weights to validators
+// - mint the bfury derivative token for all delegations
+// - deposit the liquid bonded fury into the earn module
 func ProcessDelegationAllocations(cfg config.Config, allocations config.Allocations) error {
 	// create factory for generating account signers
-	makeSigner := SignerFactory(cfg.ChainID, cfg.KavaGrpcEndpoint)
+	makeSigner := SignerFactory(cfg.ChainID, cfg.FuryGrpcEndpoint)
 
 	numAccounts := allocations.GetNumAccounts()
 
@@ -113,14 +113,14 @@ func ProcessDelegationAllocations(cfg config.Config, allocations config.Allocati
 		}
 	}()
 
-	// issue kava to all accounts. response will manage further txs from funded account.
+	// issue fury to all accounts. response will manage further txs from funded account.
 	msgs := make([]sdk.Msg, 0, devWalletBatchSize)
 	idxs := make([]int, 0, devWalletBatchSize)
 	for idx := 0; idx < numAccounts; idx++ {
 		total := sdk.NewIntFromBigInt(totalByIdx[idx].BigInt()).AddRaw(gasPrice)
 		issueTokensMsg := issuancetypes.NewMsgIssueTokens(
 			devWalletSigner.Address().String(),
-			sdk.NewCoin("ukava", total),
+			sdk.NewCoin("ufury", total),
 			signerByIdx[idx].Address().String(),
 		)
 		msgs = append(msgs, issueTokensMsg)
@@ -133,7 +133,7 @@ func ProcessDelegationAllocations(cfg config.Config, allocations config.Allocati
 			devWalletRequests <- signing.MsgRequest{
 				Msgs:      msgs,
 				GasLimit:  2000000,
-				FeeAmount: sdk.NewCoins(sdk.NewCoin("ukava", sdk.NewInt(gasPrice))),
+				FeeAmount: sdk.NewCoins(sdk.NewCoin("ufury", sdk.NewInt(gasPrice))),
 				Memo:      "happy delegating!",
 				Data:      idxs,
 			}
@@ -239,7 +239,7 @@ func DelegateByWeightedDistribution(
 			)
 			break
 		}
-		// skip sending 0 KAVA
+		// skip sending 0 FURY
 		if distribution.Weights[i] == 0 {
 			log.Printf("delegator %d has 0 weight for validator %d, skipping\n", addressIdx, i)
 			continue
@@ -274,7 +274,7 @@ func DelegateBySpamParams(
 	// watch and report on responses
 	go ReportOnResults(
 		accWg, accResponses,
-		fmt.Sprintf("spam delegation of %s ukava from account %d", amount.String(), addressIdx),
+		fmt.Sprintf("spam delegation of %s ufury from account %d", amount.String(), addressIdx),
 	)
 
 	accWg.Add(1)
@@ -300,20 +300,20 @@ func BuildDelegationRequest(
 	stakingDelegation := stakingtypes.NewMsgDelegate(
 		signerAddress,
 		validatorAddress,
-		sdk.NewCoin("ukava", amount),
+		sdk.NewCoin("ufury", amount),
 	)
 	msgs = append(msgs, stakingDelegation)
 	if !cfg.SkipLiquify {
 		liquidMinting := liquidtypes.NewMsgMintDerivative(
 			signerAddress,
 			validatorAddress,
-			sdk.NewCoin("ukava", amount),
+			sdk.NewCoin("ufury", amount),
 		)
 		msgs = append(msgs, &liquidMinting)
 		earnDeposit := earntypes.NewMsgDeposit(
 			signerAddress.String(),
 			sdk.NewCoin(
-				liquidtypes.GetLiquidStakingTokenDenom("bkava", validatorAddress),
+				liquidtypes.GetLiquidStakingTokenDenom("bfury", validatorAddress),
 				amount,
 			),
 			earntypes.STRATEGY_TYPE_SAVINGS,
@@ -324,8 +324,8 @@ func BuildDelegationRequest(
 	return signing.MsgRequest{
 		Msgs:      msgs,
 		GasLimit:  uint64(cfg.DelegationGas),
-		FeeAmount: sdk.NewCoins(sdk.NewCoin("ukava", sdk.NewInt(gasPrice))),
-		Memo:      "staking my kava!",
+		FeeAmount: sdk.NewCoins(sdk.NewCoin("ufury", sdk.NewInt(gasPrice))),
+		Memo:      "staking my fury!",
 		Data: Data{
 			Address:    validatorAddress.String(),
 			AddressIdx: addressIdx,

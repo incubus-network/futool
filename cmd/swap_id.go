@@ -11,15 +11,15 @@ import (
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v2"
 
-	"github.com/kava-labs/kvtool/binance"
+	"github.com/incubus-network/futool/binance"
 )
 
 var (
-	kavaDeputiesStrings map[string]string = map[string]string{
-		"bnb":  "kava1r4v2zdhdalfj2ydazallqvrus9fkphmglhn6u6",
-		"btcb": "kava14qsmvzprqvhwmgql9fr0u3zv9n2qla8zhnm5pc",
-		"busd": "kava1hh4x3a4suu5zyaeauvmv7ypf7w9llwlfufjmuu",
-		"xrpb": "kava1c0ju5vnwgpgxnrktfnkccuth9xqc68dcdpzpas",
+	furyDeputiesStrings map[string]string = map[string]string{
+		"bnb":  "fury1r4v2zdhdalfj2ydazallqvrus9fkphmgnfwgej",
+		"btcb": "fury14qsmvzprqvhwmgql9fr0u3zv9n2qla8zmdxxys",
+		"busd": "fury1hh4x3a4suu5zyaeauvmv7ypf7w9llwlfsh0fe5",
+		"xrpb": "fury1c0ju5vnwgpgxnrktfnkccuth9xqc68dcpllncc",
 	}
 	bnbDeputiesStrings map[string]string = map[string]string{
 		"bnb":  "bnb1jh7uv2rm6339yue8k4mj9406k3509kr4wt5nxn",
@@ -29,12 +29,12 @@ var (
 	}
 )
 
-// SwapIDCmd returns a command to calculate a bep3 swap ID for binance and kava chains.
+// SwapIDCmd returns a command to calculate a bep3 swap ID for binance and fury chains.
 func SwapIDCmd(cdc *codec.LegacyAmino) *cobra.Command {
 
-	kavaDeputies := map[string]sdk.AccAddress{}
-	for k, v := range kavaDeputiesStrings {
-		kavaDeputies[k] = mustKavaAccAddressFromBech32(v)
+	furyDeputies := map[string]sdk.AccAddress{}
+	for k, v := range furyDeputiesStrings {
+		furyDeputies[k] = mustFuryAccAddressFromBech32(v)
 	}
 	bnbDeputies := map[string]binance.AccAddress{}
 	for k, v := range bnbDeputiesStrings {
@@ -43,14 +43,14 @@ func SwapIDCmd(cdc *codec.LegacyAmino) *cobra.Command {
 
 	cmd := &cobra.Command{
 		Use:   "swap-id random_number_hash original_sender_address deputy_addres_or_denom",
-		Short: "Calculate binance and kava swap IDs given swap details.",
+		Short: "Calculate binance and fury swap IDs given swap details.",
 		Long: fmt.Sprintf(`A swap's ID is: hash(swap.RandomNumberHash, swap.Sender, swap.SenderOtherChain)
 One of the senders is always the deputy's address, the other is the user who initiated the first swap (the original sender).
 Corresponding swaps on each chain have the same RandomNumberHash, but switched address order.
 
 The deputy can be one of %v to automatically use the mainnet deputy addresses, or an arbitrary address.
 The original sender and deputy address cannot be from the same chain.
-`, getKeys(kavaDeputiesStrings)),
+`, getKeys(furyDeputiesStrings)),
 		Example: "swap-id 464105c245199d02a4289475b8b231f3f73918b6f0fdad898825186950d46f36 bnb10rr5f8m73rxgnz9afvnfn7fn9pwhfskem5kn0x busd",
 		Args:    cobra.ExactArgs(3),
 		RunE: func(_ *cobra.Command, args []string) error {
@@ -60,24 +60,24 @@ The original sender and deputy address cannot be from the same chain.
 				return err
 			}
 
-			// try and decode the bech32 address as either kava or bnb
-			addressKava, errKava := sdk.AccAddressFromBech32(args[1])
+			// try and decode the bech32 address as either fury or bnb
+			addressFury, errFury := sdk.AccAddressFromBech32(args[1])
 			addressBnb, errBnb := binance.AccAddressFromBech32(args[1])
 
 			// fail if both decoding failed
-			isKavaAddress := errKava == nil && errBnb != nil
-			isBnbAddress := errKava != nil && errBnb == nil
-			if !isKavaAddress && !isBnbAddress {
-				return fmt.Errorf("can't unmarshal original sender address as either kava or bnb: (%s) (%s)", errKava.Error(), errBnb.Error())
+			isFuryAddress := errFury == nil && errBnb != nil
+			isBnbAddress := errFury != nil && errBnb == nil
+			if !isFuryAddress && !isBnbAddress {
+				return fmt.Errorf("can't unmarshal original sender address as either fury or bnb: (%s) (%s)", errFury.Error(), errBnb.Error())
 			}
 
 			// calculate swap IDs
 			depArg := args[2]
-			var swapIDKava, swapIDBnb []byte
-			if isKavaAddress {
+			var swapIDFury, swapIDBnb []byte
+			if isFuryAddress {
 				// check sender isn't a deputy
-				for _, dep := range kavaDeputies {
-					if addressKava.Equals(dep) {
+				for _, dep := range furyDeputies {
+					if addressFury.Equals(dep) {
 						return fmt.Errorf("original sender address cannot be deputy address: %s", dep)
 					}
 				}
@@ -91,8 +91,8 @@ The original sender and deputy address cannot be from the same chain.
 					}
 				}
 				// calc ids
-				swapIDKava = types.CalculateSwapID(randomNumberHash, addressKava, bnbDeputy.String())
-				swapIDBnb = binance.CalculateSwapID(randomNumberHash, bnbDeputy, addressKava.String())
+				swapIDFury = types.CalculateSwapID(randomNumberHash, addressFury, bnbDeputy.String())
+				swapIDBnb = binance.CalculateSwapID(randomNumberHash, bnbDeputy, addressFury.String())
 			} else {
 				// check sender isn't a deputy
 				for _, dep := range bnbDeputies {
@@ -101,20 +101,20 @@ The original sender and deputy address cannot be from the same chain.
 					}
 				}
 				// pick deputy address
-				var kavaDeputy sdk.AccAddress
-				kavaDeputy, ok := kavaDeputies[depArg]
+				var furyDeputy sdk.AccAddress
+				furyDeputy, ok := furyDeputies[depArg]
 				if !ok {
-					kavaDeputy, err = sdk.AccAddressFromBech32(depArg)
+					furyDeputy, err = sdk.AccAddressFromBech32(depArg)
 					if err != nil {
-						return fmt.Errorf("can't unmarshal deputy address as kava address (%s)", err)
+						return fmt.Errorf("can't unmarshal deputy address as fury address (%s)", err)
 					}
 				}
 				// calc ids
-				swapIDBnb = binance.CalculateSwapID(randomNumberHash, addressBnb, kavaDeputy.String())
-				swapIDKava = types.CalculateSwapID(randomNumberHash, kavaDeputy, addressBnb.String())
+				swapIDBnb = binance.CalculateSwapID(randomNumberHash, addressBnb, furyDeputy.String())
+				swapIDFury = types.CalculateSwapID(randomNumberHash, furyDeputy, addressBnb.String())
 			}
 
-			outString, err := formatResults(swapIDKava, swapIDBnb)
+			outString, err := formatResults(swapIDFury, swapIDBnb)
 			if err != nil {
 				return err
 			}
@@ -126,19 +126,19 @@ The original sender and deputy address cannot be from the same chain.
 	return cmd
 }
 
-func formatResults(swapIDKava, swapIDBnb []byte) (string, error) {
+func formatResults(swapIDFury, swapIDBnb []byte) (string, error) {
 	result := struct {
-		KavaSwapID string `yaml:"kava_swap_id"`
+		FurySwapID string `yaml:"fury_swap_id"`
 		BnbSwapID  string `yaml:"bnb_swap_id"`
 	}{
-		KavaSwapID: hex.EncodeToString(swapIDKava),
+		FurySwapID: hex.EncodeToString(swapIDFury),
 		BnbSwapID:  hex.EncodeToString(swapIDBnb),
 	}
 	bz, err := yaml.Marshal(result)
 	return string(bz), err
 }
 
-func mustKavaAccAddressFromBech32(address string) sdk.AccAddress {
+func mustFuryAccAddressFromBech32(address string) sdk.AccAddress {
 	a, err := sdk.AccAddressFromBech32(address)
 	if err != nil {
 		panic(err)
