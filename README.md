@@ -138,7 +138,7 @@ alias dfury='docker exec -it generated_furynode_1 fury'
 alias fury
 
 # For versions before v0.16.x
-alias dkvcli='docker exec -it generated_furynode_1 kvcli'
+alias dfucli='docker exec -it generated_furynode_1 fucli'
 ```
 
 Note that for some architectures or docker versions, the containers are generated with hyphens (`-`) instead of underscores (`_`).

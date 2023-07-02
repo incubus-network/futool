@@ -14,13 +14,13 @@ func MaccAddrCmd() *cobra.Command {
 		Use:   "macc-address [module-name]",
 		Short: "Helper for getting the address of a module account.",
 		Example: `$ futool macc-address furydist
-> fury1cj7njkw2g9fqx4e768zc75dp9sks8u9znxrf0w
+> kava1cj7njkw2g9fqx4e768zc75dp9sks8u9znxrf0w
 
 $ futool macc-address liquid
-> fury1gggszchqvw2l65my03mak6q5qfhz9cn2g0px29
+> kava1gggszchqvw2l65my03mak6q5qfhz9cn2g0px29
 
 $ futool macc-address hypothetical-module-name
-> fury1s9z272h8cacjjj84yps2fk2rvwpruc3juqpn85`,
+> kava1s9z272h8cacjjj84yps2fk2rvwpruc3juqpn85`,
 		Args: cobra.ExactArgs(1),
 		Run: func(_ *cobra.Command, args []string) {
 			moduleName := args[0]

@@ -18,7 +18,7 @@
           "type": "cosmos-sdk/Account",
           "value": {
             "account_number": 0,
-            "address": "fury1ypjp0m04pyp73hwgtc0dgkx0e9rrydecm054da",
+            "address": "fury1ypjp0m04pyp73hwgtc0dgkx0e9rrydech3f8g4",
             "coins": [
               {
                 "amount": "1000000000000",
@@ -33,7 +33,7 @@
           "type": "cosmos-sdk/Account",
           "value": {
             "account_number": 0,
-            "address": "fury1agcvt07tcw0tglu0hmwdecsnuxp2yd45f3avgm",
+            "address": "fury1agcvt07tcw0tglu0hmwdecsnuxp2yd4590q7dn",
             "coins": [
               {
                 "amount": "100000000000000",
@@ -52,7 +52,7 @@
           "type": "cosmos-sdk/Account",
           "value": {
             "account_number": 0,
-            "address": "fury1g33w0mh4mjllhaj3y4dcwkwquxgwrma9ga5t94",
+            "address": "fury1g33w0mh4mjllhaj3y4dcwkwquxgwrma9yrfeqa",
             "coins": [
               {
                 "amount": "1000000000000",
@@ -67,7 +67,7 @@
           "type": "cosmos-sdk/Account",
           "value": {
             "account_number": 0,
-            "address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+            "address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
             "coins": [
               {
                 "amount": "1000000000000",
@@ -82,7 +82,7 @@
           "type": "cosmos-sdk/Account",
           "value": {
             "account_number": 0,
-            "address": "fury173w2zz287s36ewnnkf4mjansnthnnsz7rtrxqc",
+            "address": "fury173w2zz287s36ewnnkf4mjansnthnnsz704759s",
             "coins": [
               {
                 "amount": "1000000000000",
@@ -97,7 +97,7 @@
           "type": "cosmos-sdk/Account",
           "value": {
             "account_number": 0,
-            "address": "fury1fwfwmt6vupf3m9uvpdsuuc4dga8p5dtl4npcqz",
+            "address": "fury1fwfwmt6vupf3m9uvpdsuuc4dga8p5dtledu292",
             "coins": [
               {
                 "amount": "1000000000000",
@@ -112,7 +112,7 @@
           "type": "cosmos-sdk/Account",
           "value": {
             "account_number": 0,
-            "address": "fury1sw54s6gq76acm35ls6m5c0kr93dstgrh6eftld",
+            "address": "fury1sw54s6gq76acm35ls6m5c0kr93dstgrhk85e69",
             "coins": [
               {
                 "amount": "1000000000000",
@@ -127,7 +127,7 @@
           "type": "cosmos-sdk/Account",
           "value": {
             "account_number": 0,
-            "address": "fury1t4dvu32e309pzhmdn3aqcjlj79h9876plynrfm",
+            "address": "fury1t4dvu32e309pzhmdn3aqcjlj79h9876pn6w3vn",
             "coins": [
               {
                 "amount": "1000000000000",
@@ -142,7 +142,7 @@
           "type": "cosmos-sdk/Account",
           "value": {
             "account_number": 0,
-            "address": "fury1wuzhkn2f8nqe2aprnwt3jkjvvr9m7dlkpumtz2",
+            "address": "fury1wuzhkn2f8nqe2aprnwt3jkjvvr9m7dlkdzxe8z",
             "coins": [
               {
                 "amount": "1000000000000",
@@ -169,7 +169,7 @@
       "assets_supplies": [],
       "atomic_swaps": [],
       "params": {
-        "bnb_deputy_address": "fury1agcvt07tcw0tglu0hmwdecsnuxp2yd45f3avgm",
+        "bnb_deputy_address": "fury1agcvt07tcw0tglu0hmwdecsnuxp2yd4590q7dn",
         "bnb_deputy_fixed_fee": "1000",
         "max_amount": "1000000000000",
         "max_block_lock": "270",
@@ -235,7 +235,7 @@
           "id": "1",
           "description": "Fury Stability Committee",
           "members": [
-            "fury1n96qpdfcz2m7y364ewk8srv9zuq6ucwduyjaag"
+            "fury1n96qpdfcz2m7y364ewk8srv9zuq6ucwds600cq"
           ],
           "permissions": [
             {
@@ -366,7 +366,7 @@
           "id": "2",
           "description": "A test committee with the ability to change any system param.",
           "members": [
-            "fury1n96qpdfcz2m7y364ewk8srv9zuq6ucwduyjaag"
+            "fury1n96qpdfcz2m7y364ewk8srv9zuq6ucwds600cq"
           ],
           "permissions": [
             {
@@ -432,7 +432,7 @@
                     "max_rate": "0.200000000000000000",
                     "rate": "0.100000000000000000"
                   },
-                  "delegator_address": "fury1ypjp0m04pyp73hwgtc0dgkx0e9rrydecm054da",
+                  "delegator_address": "fury1ypjp0m04pyp73hwgtc0dgkx0e9rrydech3f8g4",
                   "description": {
                     "details": "",
                     "identity": "",
@@ -441,8 +441,8 @@
                     "website": ""
                   },
                   "min_self_delegation": "1",
-                  "pubkey": "furyvalconspub1zcjduepqvfq6egzgfmdkd6k7cqhsvsfr4lhsp6adh4uurxgkhec8h7amxcjq7gjum4",
-                  "validator_address": "furyvaloper1ypjp0m04pyp73hwgtc0dgkx0e9rrydeckewa42",
+                  "pubkey": "furyvalconspub1zcjduepqvfq6egzgfmdkd6k7cqhsvsfr4lhsp6adh4uurxgkhec8h7amxcjqszvm0l",
+                  "validator_address": "furyvaloper1ypjp0m04pyp73hwgtc0dgkx0e9rrydecmmtjay",
                   "value": {
                     "amount": "1000000000",
                     "denom": "ufury"
@@ -545,7 +545,7 @@
             "base_asset": "bnb",
             "market_id": "bnb:usd",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           },
@@ -554,7 +554,7 @@
             "base_asset": "bnb",
             "market_id": "bnb:usd:30",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           }
@@ -564,13 +564,13 @@
         {
           "expiry": "2021-07-20T00:00:00Z",
           "market_id": "bnb:usd",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "21.962650000000001782"
         },
         {
           "expiry": "2021-07-20T00:00:00Z",
           "market_id": "bnb:usd:30",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "21.962650000000001782"
         }
       ]

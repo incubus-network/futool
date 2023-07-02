@@ -8,7 +8,7 @@ services:
       - "26657:26657"
     volumes:
       - "./fury/initstate/.fud/config:/root/.fud/config"
-      - "./fury/initstate/.kvcli/:/root/.kvcli/"
+      - "./fury/initstate/.fucli/:/root/.fucli/"
     # start the blockchain, and set rpc to listen to connections from outside the container
     command:
       [
@@ -23,7 +23,7 @@ services:
       - "1317:1317"
     command:
       [
-        "kvcli",
+        "fucli",
         "rest-server",
         "--node=tcp://furynode:26657",
         "--trust-node",

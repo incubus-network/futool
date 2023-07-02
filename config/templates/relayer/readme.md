@@ -68,10 +68,10 @@ docker run -v $PWD/temp:/home/relayer/.relayer --network generated_default fury/
 That's it! Verify your configured relayer accounts have a balance on each chain:
 ```
 $ docker run -v $PWD/temp:/home/relayer/.relayer --network generated_default fury/relayer:v2.2.0 rly q balance fury
-address {fury1ypjp0m04pyp73hwgtc0dgkx0e9rrydecm054da} balance {1000000000ufury}
+address {kava1ypjp0m04pyp73hwgtc0dgkx0e9rrydecm054da} balance {1000000000ufury}
 
 $ docker run -v $PWD/temp:/home/relayer/.relayer --network generated_default fury/relayer:v2.2.0 rly q balance ibcchain
-address {fury1ypjp0m04pyp73hwgtc0dgkx0e9rrydecm054da} balance {1000000000uatom}
+address {kava1ypjp0m04pyp73hwgtc0dgkx0e9rrydecm054da} balance {1000000000uatom}
 ```
 
 5. Copy the directories to the template

@@ -31,15 +31,15 @@ A minimal working example input looks like the following:
 ```json
 {
   "validators": [
-    { "operator_address": "furyvaloper1xcgtffvv2yeqmgs3yz4gv29kgjrj8usxrnrlwp" },
-    { "operator_address": "furyvaloper1w66m9hdzwgd6uc8g93zqkcumgwzrpcw958sh3s" }
+    { "operator_address": "kavavaloper1xcgtffvv2yeqmgs3yz4gv29kgjrj8usxrnrlwp" },
+    { "operator_address": "kavavaloper1w66m9hdzwgd6uc8g93zqkcumgwzrpcw958sh3s" }
   ]
 }
 ```
 
 By default, this will delegate an equal amount of Fury to each validator from one delegator account.
 
-`validators` - a required list of validators to delegate to. The only key necessary is the `operator_address`, the `furyvaloper-` address of the validator.
+`validators` - a required list of validators to delegate to. The only key necessary is the `operator_address`, the `kavavaloper-` address of the validator.
 
 Other fields are ignored which means it works to pass in a validator list from the API:
 ```bash
@@ -59,8 +59,8 @@ When not defined, it defaults to the following:
 ```json
 {
   "validators": [
-    { "operator_address": "furyvaloper1xcgtffvv2yeqmgs3yz4gv29kgjrj8usxrnrlwp" },
-    { "operator_address": "furyvaloper1w66m9hdzwgd6uc8g93zqkcumgwzrpcw958sh3s" }
+    { "operator_address": "kavavaloper1xcgtffvv2yeqmgs3yz4gv29kgjrj8usxrnrlwp" },
+    { "operator_address": "kavavaloper1w66m9hdzwgd6uc8g93zqkcumgwzrpcw958sh3s" }
   ],
   // each item in `delegations` is an account that will delegate to above validators
   // if empty or undefined, defaults to 1 account with equal distribution
@@ -103,8 +103,8 @@ Each item in `delegations` defines how a different delegator accounts will deleg
 ```json
 {
   "validators": [
-    { "operator_address": "furyvaloper1xcgtffvv2yeqmgs3yz4gv29kgjrj8usxrnrlwp" },
-    { "operator_address": "furyvaloper1w66m9hdzwgd6uc8g93zqkcumgwzrpcw958sh3s" }
+    { "operator_address": "kavavaloper1xcgtffvv2yeqmgs3yz4gv29kgjrj8usxrnrlwp" },
+    { "operator_address": "kavavaloper1w66m9hdzwgd6uc8g93zqkcumgwzrpcw958sh3s" }
   ],
   "delegations": [
     { "distribution": "equal", "base_amount": "1_000_000_000_000"},
@@ -126,8 +126,8 @@ The configuration input allows for arbitrarily weighted distributions when `dist
 ```json
 {
   "validators": [
-    { "operator_address": "furyvaloper1xcgtffvv2yeqmgs3yz4gv29kgjrj8usxrnrlwp" },
-    { "operator_address": "furyvaloper1w66m9hdzwgd6uc8g93zqkcumgwzrpcw958sh3s" }
+    { "operator_address": "kavavaloper1xcgtffvv2yeqmgs3yz4gv29kgjrj8usxrnrlwp" },
+    { "operator_address": "kavavaloper1w66m9hdzwgd6uc8g93zqkcumgwzrpcw958sh3s" }
   ],
   "delegations": [
     {
@@ -165,8 +165,8 @@ Mix and match to you heart's content:
 ```json
 {
   "validators": [
-    { "operator_address": "furyvaloper1xcgtffvv2yeqmgs3yz4gv29kgjrj8usxrnrlwp" },
-    { "operator_address": "furyvaloper1w66m9hdzwgd6uc8g93zqkcumgwzrpcw958sh3s" }
+    { "operator_address": "kavavaloper1xcgtffvv2yeqmgs3yz4gv29kgjrj8usxrnrlwp" },
+    { "operator_address": "kavavaloper1w66m9hdzwgd6uc8g93zqkcumgwzrpcw958sh3s" }
   ],
   "delegations": [
     { "distribution": "equal", "base_amount": "1_000_000_000" },
@@ -189,8 +189,8 @@ If you don't need an explicit delegation distribution and just want a bunch of s
 ```json
 {
   "validators": [
-    { "operator_address": "furyvaloper1xcgtffvv2yeqmgs3yz4gv29kgjrj8usxrnrlwp" },
-    { "operator_address": "furyvaloper1w66m9hdzwgd6uc8g93zqkcumgwzrpcw958sh3s" }
+    { "operator_address": "kavavaloper1xcgtffvv2yeqmgs3yz4gv29kgjrj8usxrnrlwp" },
+    { "operator_address": "kavavaloper1w66m9hdzwgd6uc8g93zqkcumgwzrpcw958sh3s" }
   ],
   "spam_delegations": {
     "count": 100,

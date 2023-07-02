@@ -5,8 +5,8 @@
       "msg": "/cosmos.bank.v1beta1.MsgMultiSend"
     },
     "expiration": null,
-    "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-    "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+    "grantee": "kava10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
+    "granter": "kava17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
   },
   {
     "authorization": {
@@ -14,8 +14,8 @@
       "msg": "/cosmos.bank.v1beta1.MsgSend"
     },
     "expiration": null,
-    "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-    "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+    "grantee": "kava10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
+    "granter": "kava17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
   },
   {
     "authorization": {
@@ -23,8 +23,8 @@
       "msg": "/cosmos.distribution.v1beta1.MsgFundCommunityPool"
     },
     "expiration": null,
-    "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-    "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+    "grantee": "kava10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
+    "granter": "kava17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
   },
   {
     "authorization": {
@@ -32,8 +32,8 @@
       "msg": "/cosmos.distribution.v1beta1.MsgSetWithdrawAddress"
     },
     "expiration": null,
-    "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-    "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+    "grantee": "kava10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
+    "granter": "kava17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
   },
   {
     "authorization": {
@@ -41,8 +41,8 @@
       "msg": "/cosmos.distribution.v1beta1.MsgWithdrawDelegatorReward"
     },
     "expiration": null,
-    "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-    "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+    "grantee": "kava10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
+    "granter": "kava17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
   },
   {
     "authorization": {
@@ -50,8 +50,8 @@
       "msg": "/cosmos.distribution.v1beta1.MsgWithdrawValidatorCommission"
     },
     "expiration": null,
-    "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-    "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+    "grantee": "kava10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
+    "granter": "kava17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
   },
   {
     "authorization": {
@@ -59,8 +59,8 @@
       "msg": "/cosmos.staking.v1beta1.MsgBeginRedelegate"
     },
     "expiration": null,
-    "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-    "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+    "grantee": "kava10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
+    "granter": "kava17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
   },
   {
     "authorization": {
@@ -68,8 +68,8 @@
       "msg": "/cosmos.staking.v1beta1.MsgCancelUnbondingDelegation"
     },
     "expiration": null,
-    "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-    "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+    "grantee": "kava10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
+    "granter": "kava17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
   },
   {
     "authorization": {
@@ -77,8 +77,8 @@
       "msg": "/cosmos.staking.v1beta1.MsgDelegate"
     },
     "expiration": null,
-    "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-    "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+    "grantee": "kava10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
+    "granter": "kava17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
   },
   {
     "authorization": {
@@ -86,8 +86,8 @@
       "msg": "/cosmos.staking.v1beta1.MsgUndelegate"
     },
     "expiration": null,
-    "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-    "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+    "grantee": "kava10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
+    "granter": "kava17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
   },
   {
     "authorization": {
@@ -95,8 +95,8 @@
       "msg": "/fury.cdp.v1beta1.MsgCreateCDP"
     },
     "expiration": null,
-    "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-    "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+    "grantee": "kava10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
+    "granter": "kava17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
   },
   {
     "authorization": {
@@ -104,8 +104,8 @@
       "msg": "/fury.cdp.v1beta1.MsgDeposit"
     },
     "expiration": null,
-    "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-    "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+    "grantee": "kava10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
+    "granter": "kava17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
   },
   {
     "authorization": {
@@ -113,8 +113,8 @@
       "msg": "/fury.cdp.v1beta1.MsgDrawDebt"
     },
     "expiration": null,
-    "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-    "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+    "grantee": "kava10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
+    "granter": "kava17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
   },
   {
     "authorization": {
@@ -122,8 +122,8 @@
       "msg": "/fury.cdp.v1beta1.MsgRepayDebt"
     },
     "expiration": null,
-    "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-    "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+    "grantee": "kava10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
+    "granter": "kava17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
   },
   {
     "authorization": {
@@ -131,8 +131,8 @@
       "msg": "/fury.cdp.v1beta1.MsgWithdraw"
     },
     "expiration": null,
-    "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-    "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+    "grantee": "kava10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
+    "granter": "kava17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
   },
   {
     "authorization": {
@@ -140,8 +140,8 @@
       "msg": "/fury.hard.v1beta1.MsgBorrow"
     },
     "expiration": null,
-    "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-    "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+    "grantee": "kava10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
+    "granter": "kava17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
   },
   {
     "authorization": {
@@ -149,8 +149,8 @@
       "msg": "/fury.hard.v1beta1.MsgDeposit"
     },
     "expiration": null,
-    "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-    "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+    "grantee": "kava10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
+    "granter": "kava17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
   },
   {
     "authorization": {
@@ -158,8 +158,8 @@
       "msg": "/fury.hard.v1beta1.MsgRepay"
     },
     "expiration": null,
-    "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-    "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+    "grantee": "kava10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
+    "granter": "kava17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
   },
   {
     "authorization": {
@@ -167,8 +167,8 @@
       "msg": "/fury.hard.v1beta1.MsgWithdraw"
     },
     "expiration": null,
-    "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-    "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+    "grantee": "kava10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
+    "granter": "kava17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
   },
   {
     "authorization": {
@@ -176,8 +176,8 @@
       "msg": "/fury.liquid.v1beta1.MsgBurnDerivative"
     },
     "expiration": null,
-    "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-    "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+    "grantee": "kava10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
+    "granter": "kava17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
   },
   {
     "authorization": {
@@ -185,8 +185,8 @@
       "msg": "/fury.liquid.v1beta1.MsgMintDerivative"
     },
     "expiration": null,
-    "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-    "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+    "grantee": "kava10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
+    "granter": "kava17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
   },
   {
     "authorization": {
@@ -194,8 +194,8 @@
       "msg": "/fury.swap.v1beta1.MsgDeposit"
     },
     "expiration": null,
-    "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-    "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+    "grantee": "kava10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
+    "granter": "kava17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
   },
   {
     "authorization": {
@@ -203,8 +203,8 @@
       "msg": "/fury.swap.v1beta1.MsgSwapExactForTokens"
     },
     "expiration": null,
-    "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-    "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+    "grantee": "kava10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
+    "granter": "kava17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
   },
   {
     "authorization": {
@@ -212,8 +212,8 @@
       "msg": "/fury.swap.v1beta1.MsgSwapForExactTokens"
     },
     "expiration": null,
-    "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-    "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+    "grantee": "kava10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
+    "granter": "kava17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
   },
   {
     "authorization": {
@@ -221,7 +221,7 @@
       "msg": "/fury.swap.v1beta1.MsgWithdraw"
     },
     "expiration": null,
-    "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-    "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+    "grantee": "kava10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
+    "granter": "kava17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
   }
 ]

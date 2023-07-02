@@ -46,105 +46,105 @@
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "account_number": "0",
-          "address": "fury1ypjp0m04pyp73hwgtc0dgkx0e9rrydecm054da",
+          "address": "fury1ypjp0m04pyp73hwgtc0dgkx0e9rrydech3f8g4",
           "pub_key": null,
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "account_number": "0",
-          "address": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+          "address": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz39659tg",
           "pub_key": null,
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "account_number": "0",
-          "address": "fury1agcvt07tcw0tglu0hmwdecsnuxp2yd45f3avgm",
+          "address": "fury1agcvt07tcw0tglu0hmwdecsnuxp2yd4590q7dn",
           "pub_key": null,
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "account_number": "0",
-          "address": "fury1g33w0mh4mjllhaj3y4dcwkwquxgwrma9ga5t94",
+          "address": "fury1g33w0mh4mjllhaj3y4dcwkwquxgwrma9yrfeqa",
           "pub_key": null,
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "account_number": "0",
-          "address": "fury1kla4wl0ccv7u85cemvs3y987hqk0afcv7vue84",
+          "address": "fury1kla4wl0ccv7u85cemvs3y987hqk0afcvjjptza",
           "pub_key": null,
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "account_number": "0",
-          "address": "fury1ynf22ap74j6znl503a56y23x5stfr0aw5kntp8",
+          "address": "fury1ynf22ap74j6znl503a56y23x5stfr0awcgwey0",
           "pub_key": null,
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "account_number": "0",
-          "address": "fury14q5sawxdxtpap5x5sgzj7v4sp3ucncjlpuk3hs",
+          "address": "fury14q5sawxdxtpap5x5sgzj7v4sp3ucncjldztrjc",
           "pub_key": null,
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "account_number": "0",
-          "address": "fury1z3ytjpr6ancl8gw80z6f47z9smug7986x29vtj",
+          "address": "fury1z3ytjpr6ancl8gw80z6f47z9smug798625c7w6",
           "pub_key": null,
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "account_number": "0",
-          "address": "fury1j9je7f6s0v6k7dmgv6u5k5ru202f5ffsc7af04",
+          "address": "fury1j9je7f6s0v6k7dmgv6u5k5ru202f5ffs5qqm2a",
           "pub_key": null,
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "account_number": "0",
-          "address": "fury1ektgdyy0z23qqnd67ns3qvfzgfgjd5xe82lf5c",
+          "address": "fury1ektgdyy0z23qqnd67ns3qvfzgfgjd5xet5zm3s",
           "pub_key": null,
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "account_number": "0",
-          "address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "pub_key": null,
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "account_number": "0",
-          "address": "fury1sw54s6gq76acm35ls6m5c0kr93dstgrh6eftld",
+          "address": "fury1sw54s6gq76acm35ls6m5c0kr93dstgrhk85e69",
           "pub_key": null,
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "account_number": "0",
-          "address": "fury1t4dvu32e309pzhmdn3aqcjlj79h9876plynrfm",
+          "address": "fury1t4dvu32e309pzhmdn3aqcjlj79h9876pn6w3vn",
           "pub_key": null,
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "account_number": "0",
-          "address": "fury1wuzhkn2f8nqe2aprnwt3jkjvvr9m7dlkpumtz2",
+          "address": "fury1wuzhkn2f8nqe2aprnwt3jkjvvr9m7dlkdzxe8z",
           "pub_key": null,
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "account_number": "0",
-          "address": "fury173w2zz287s36ewnnkf4mjansnthnnsz7rtrxqc",
+          "address": "fury173w2zz287s36ewnnkf4mjansnthnnsz704759s",
           "pub_key": null,
           "sequence": "0"
         },
@@ -153,7 +153,7 @@
           "base_vesting_account": {
             "base_account": {
               "account_number": "0",
-              "address": "fury1fwfwmt6vupf3m9uvpdsuuc4dga8p5dtl4npcqz",
+              "address": "fury1fwfwmt6vupf3m9uvpdsuuc4dga8p5dtledu292",
               "pub_key": null,
               "sequence": "0"
             },
@@ -183,7 +183,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8dg863a",
+            "address": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -193,7 +193,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "fury1r3emvfrc242jcfr9f9ygc34ztpp58xxu6spvdq",
+            "address": "fury1r3emvfrc242jcfr9f9ygc34ztpp58xxukwu7gg",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -203,7 +203,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "fury10wlnqzyss4accfqmyxwx5jy5x9nfkwh6qm7n4t",
+            "address": "fury10wlnqzyss4accfqmyxwx5jy5x9nfkwh6v9rpsr",
             "pub_key": null,
             "account_number": "0",
             "sequence": "3"
@@ -213,7 +213,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "fury15tmj37vh7ch504px9fcfglmvx6y9m70646ev8t",
+            "address": "fury15tmj37vh7ch504px9fcfglmvx6y9m706eyy7zr",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -224,7 +224,7 @@
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
             "account_number": "41",
-            "address": "fury1afcspmdzlqzn2c53krj4mt2yskv6wtrds2jqht",
+            "address": "fury1afcspmdzlqzn2c53krj4mt2yskv6wtrdu50jjr",
             "pub_key": null,
             "sequence": "1"
           },
@@ -234,7 +234,7 @@
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
             "account_number": "0",
-            "address": "fury1vtf08rd2z9fm8qwxa54y3el5vues8ty64qcdyr",
+            "address": "fury1vtf08rd2z9fm8qwxa54y3el5vues8ty6e79lpt",
             "pub_key": null,
             "sequence": "1"
           },
@@ -244,7 +244,7 @@
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
             "account_number": "0",
-            "address": "fury1wrrekcy2h0zs9shkruuwqsvsldq8hm70yad4ke",
+            "address": "fury1wrrekcy2h0zs9shkruuwqsvsldq8hm70grs8n3",
             "pub_key": null,
             "sequence": "1"
           },
@@ -260,8 +260,8 @@
             "msg": "/cosmos.bank.v1beta1.MsgMultiSend"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -269,8 +269,8 @@
             "msg": "/cosmos.bank.v1beta1.MsgSend"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -278,8 +278,8 @@
             "msg": "/cosmos.distribution.v1beta1.MsgFundCommunityPool"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -287,8 +287,8 @@
             "msg": "/cosmos.distribution.v1beta1.MsgSetWithdrawAddress"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -296,8 +296,8 @@
             "msg": "/cosmos.distribution.v1beta1.MsgWithdrawDelegatorReward"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -305,8 +305,8 @@
             "msg": "/cosmos.distribution.v1beta1.MsgWithdrawValidatorCommission"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -314,8 +314,8 @@
             "msg": "/cosmos.staking.v1beta1.MsgBeginRedelegate"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -323,8 +323,8 @@
             "msg": "/cosmos.staking.v1beta1.MsgCancelUnbondingDelegation"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -332,8 +332,8 @@
             "msg": "/cosmos.staking.v1beta1.MsgDelegate"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -341,8 +341,8 @@
             "msg": "/cosmos.staking.v1beta1.MsgUndelegate"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -350,8 +350,8 @@
             "msg": "/fury.cdp.v1beta1.MsgCreateCDP"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -359,8 +359,8 @@
             "msg": "/fury.cdp.v1beta1.MsgDeposit"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -368,8 +368,8 @@
             "msg": "/fury.cdp.v1beta1.MsgDrawDebt"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -377,8 +377,8 @@
             "msg": "/fury.cdp.v1beta1.MsgRepayDebt"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -386,8 +386,8 @@
             "msg": "/fury.cdp.v1beta1.MsgWithdraw"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -395,8 +395,8 @@
             "msg": "/fury.hard.v1beta1.MsgBorrow"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -404,8 +404,8 @@
             "msg": "/fury.hard.v1beta1.MsgDeposit"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -413,8 +413,8 @@
             "msg": "/fury.hard.v1beta1.MsgRepay"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -422,8 +422,8 @@
             "msg": "/fury.hard.v1beta1.MsgWithdraw"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -431,8 +431,8 @@
             "msg": "/fury.liquid.v1beta1.MsgBurnDerivative"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -440,8 +440,8 @@
             "msg": "/fury.liquid.v1beta1.MsgMintDerivative"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -449,8 +449,8 @@
             "msg": "/fury.swap.v1beta1.MsgDeposit"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -458,8 +458,8 @@
             "msg": "/fury.swap.v1beta1.MsgSwapExactForTokens"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -467,8 +467,8 @@
             "msg": "/fury.swap.v1beta1.MsgSwapForExactTokens"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -476,8 +476,8 @@
             "msg": "/fury.swap.v1beta1.MsgWithdraw"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         }
       ]
     },
@@ -488,10 +488,10 @@
       },
       "balances": [
         {
-          "address": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8dg863a",
+          "address": "fury1q0dkky0505r555etn6u2nz4h4kjcg5y8pk6g54",
           "coins": [
             {
-              "denom": "bfury-furyvaloper1ypjp0m04pyp73hwgtc0dgkx0e9rrydeckewa42",
+              "denom": "bfury-furyvaloper1ypjp0m04pyp73hwgtc0dgkx0e9rrydecmmtjay",
               "amount": "10000000000000000"
             },
             {
@@ -533,7 +533,7 @@
           ]
         },
         {
-          "address": "fury1z3ytjpr6ancl8gw80z6f47z9smug7986x29vtj",
+          "address": "fury1z3ytjpr6ancl8gw80z6f47z9smug798625c7w6",
           "coins": [
             {
               "denom": "ufury",
@@ -542,7 +542,7 @@
           ]
         },
         {
-          "address": "fury1r3emvfrc242jcfr9f9ygc34ztpp58xxu6spvdq",
+          "address": "fury1r3emvfrc242jcfr9f9ygc34ztpp58xxukwu7gg",
           "coins": [
             {
               "denom": "ufury",
@@ -551,7 +551,7 @@
           ]
         },
         {
-          "address": "fury1ypjp0m04pyp73hwgtc0dgkx0e9rrydecm054da",
+          "address": "fury1ypjp0m04pyp73hwgtc0dgkx0e9rrydech3f8g4",
           "coins": [
             {
               "denom": "ufury",
@@ -560,7 +560,7 @@
           ]
         },
         {
-          "address": "fury1ynf22ap74j6znl503a56y23x5stfr0aw5kntp8",
+          "address": "fury1ynf22ap74j6znl503a56y23x5stfr0awcgwey0",
           "coins": [
             {
               "denom": "ufury",
@@ -569,7 +569,7 @@
           ]
         },
         {
-          "address": "fury1g33w0mh4mjllhaj3y4dcwkwquxgwrma9ga5t94",
+          "address": "fury1g33w0mh4mjllhaj3y4dcwkwquxgwrma9yrfeqa",
           "coins": [
             {
               "denom": "ufury",
@@ -578,7 +578,7 @@
           ]
         },
         {
-          "address": "fury1fwfwmt6vupf3m9uvpdsuuc4dga8p5dtl4npcqz",
+          "address": "fury1fwfwmt6vupf3m9uvpdsuuc4dga8p5dtledu292",
           "coins": [
             {
               "denom": "ufury",
@@ -587,7 +587,7 @@
           ]
         },
         {
-          "address": "fury1t4dvu32e309pzhmdn3aqcjlj79h9876plynrfm",
+          "address": "fury1t4dvu32e309pzhmdn3aqcjlj79h9876pn6w3vn",
           "coins": [
             {
               "denom": "ufury",
@@ -596,10 +596,10 @@
           ]
         },
         {
-          "address": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+          "address": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz39659tg",
           "coins": [
             {
-              "denom": "bfury-furyvaloper1ypjp0m04pyp73hwgtc0dgkx0e9rrydeckewa42",
+              "denom": "bfury-furyvaloper1ypjp0m04pyp73hwgtc0dgkx0e9rrydecmmtjay",
               "amount": "10000000000000000"
             },
             {
@@ -641,7 +641,7 @@
           ]
         },
         {
-          "address": "fury1wuzhkn2f8nqe2aprnwt3jkjvvr9m7dlkpumtz2",
+          "address": "fury1wuzhkn2f8nqe2aprnwt3jkjvvr9m7dlkdzxe8z",
           "coins": [
             {
               "denom": "ufury",
@@ -650,7 +650,7 @@
           ]
         },
         {
-          "address": "fury10wlnqzyss4accfqmyxwx5jy5x9nfkwh6qm7n4t",
+          "address": "fury10wlnqzyss4accfqmyxwx5jy5x9nfkwh6v9rpsr",
           "coins": [
             {
               "denom": "ufury",
@@ -659,7 +659,7 @@
           ]
         },
         {
-          "address": "fury1sw54s6gq76acm35ls6m5c0kr93dstgrh6eftld",
+          "address": "fury1sw54s6gq76acm35ls6m5c0kr93dstgrhk85e69",
           "coins": [
             {
               "denom": "ufury",
@@ -668,7 +668,7 @@
           ]
         },
         {
-          "address": "fury1j9je7f6s0v6k7dmgv6u5k5ru202f5ffsc7af04",
+          "address": "fury1j9je7f6s0v6k7dmgv6u5k5ru202f5ffs5qqm2a",
           "coins": [
             {
               "denom": "ufury",
@@ -677,7 +677,7 @@
           ]
         },
         {
-          "address": "fury15tmj37vh7ch504px9fcfglmvx6y9m70646ev8t",
+          "address": "fury15tmj37vh7ch504px9fcfglmvx6y9m706eyy7zr",
           "coins": [
             {
               "denom": "ufury",
@@ -686,7 +686,7 @@
           ]
         },
         {
-          "address": "fury14q5sawxdxtpap5x5sgzj7v4sp3ucncjlpuk3hs",
+          "address": "fury14q5sawxdxtpap5x5sgzj7v4sp3ucncjldztrjc",
           "coins": [
             {
               "denom": "ufury",
@@ -695,7 +695,7 @@
           ]
         },
         {
-          "address": "fury1kla4wl0ccv7u85cemvs3y987hqk0afcv7vue84",
+          "address": "fury1kla4wl0ccv7u85cemvs3y987hqk0afcvjjptza",
           "coins": [
             {
               "denom": "ufury",
@@ -704,7 +704,7 @@
           ]
         },
         {
-          "address": "fury1cj7njkw2g9fqx4e768zc75dp9sks8u9znxrf0w",
+          "address": "fury1cj7njkw2g9fqx4e768zc75dp9sks8u9zlc7m2x",
           "coins": [
             {
               "denom": "hard",
@@ -721,7 +721,7 @@
           ]
         },
         {
-          "address": "fury1ektgdyy0z23qqnd67ns3qvfzgfgjd5xe82lf5c",
+          "address": "fury1ektgdyy0z23qqnd67ns3qvfzgfgjd5xet5zm3s",
           "coins": [
             {
               "denom": "ufury",
@@ -730,7 +730,7 @@
           ]
         },
         {
-          "address": "fury1mfru9azs5nua2wxcd4sq64g5nt7nn4n8s2w8cu",
+          "address": "fury1mfru9azs5nua2wxcd4sq64g5nt7nn4n8u5n4a5",
           "coins": [
             {
               "denom": "btcb",
@@ -755,7 +755,7 @@
           ]
         },
         {
-          "address": "fury1agcvt07tcw0tglu0hmwdecsnuxp2yd45f3avgm",
+          "address": "fury1agcvt07tcw0tglu0hmwdecsnuxp2yd4590q7dn",
           "coins": [
             {
               "denom": "ufury",
@@ -764,7 +764,7 @@
           ]
         },
         {
-          "address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "coins": [
             {
               "denom": "ufury",
@@ -773,10 +773,10 @@
           ]
         },
         {
-          "address": "fury173w2zz287s36ewnnkf4mjansnthnnsz7rtrxqc",
+          "address": "fury173w2zz287s36ewnnkf4mjansnthnnsz704759s",
           "coins": [
             {
-              "denom": "bfury-furyvaloper1ypjp0m04pyp73hwgtc0dgkx0e9rrydeckewa42",
+              "denom": "bfury-furyvaloper1ypjp0m04pyp73hwgtc0dgkx0e9rrydecmmtjay",
               "amount": "10000000000000000"
             },
             {
@@ -834,7 +834,7 @@
               "time_based_limit": "0"
             },
             "active": true,
-            "deputy_address": "fury1kla4wl0ccv7u85cemvs3y987hqk0afcv7vue84",
+            "deputy_address": "fury1kla4wl0ccv7u85cemvs3y987hqk0afcvjjptza",
             "fixed_fee": "2",
             "min_swap_amount": "3",
             "max_swap_amount": "2000000000",
@@ -851,7 +851,7 @@
               "time_based_limit": "0"
             },
             "active": true,
-            "deputy_address": "fury14q5sawxdxtpap5x5sgzj7v4sp3ucncjlpuk3hs",
+            "deputy_address": "fury14q5sawxdxtpap5x5sgzj7v4sp3ucncjldztrjc",
             "fixed_fee": "100000",
             "min_swap_amount": "100001",
             "max_swap_amount": "250000000000000",
@@ -868,7 +868,7 @@
               "time_based_limit": "0"
             },
             "active": true,
-            "deputy_address": "fury1agcvt07tcw0tglu0hmwdecsnuxp2yd45f3avgm",
+            "deputy_address": "fury1agcvt07tcw0tglu0hmwdecsnuxp2yd4590q7dn",
             "fixed_fee": "1000",
             "min_swap_amount": "1001",
             "max_swap_amount": "500000000000",
@@ -885,7 +885,7 @@
               "time_based_limit": "0"
             },
             "active": true,
-            "deputy_address": "fury1j9je7f6s0v6k7dmgv6u5k5ru202f5ffsc7af04",
+            "deputy_address": "fury1j9je7f6s0v6k7dmgv6u5k5ru202f5ffs5qqm2a",
             "fixed_fee": "20000",
             "min_swap_amount": "20001",
             "max_swap_amount": "100000000000000",
@@ -1160,7 +1160,7 @@
             "id": "1",
             "description": "Fury Stability Committee",
             "members": [
-              "fury1r3emvfrc242jcfr9f9ygc34ztpp58xxu6spvdq"
+              "fury1r3emvfrc242jcfr9f9ygc34ztpp58xxukwu7gg"
             ],
             "permissions": [
               {
@@ -1258,7 +1258,7 @@
             "id": "2",
             "description": "Fury Safety Committee",
             "members": [
-              "fury1r3emvfrc242jcfr9f9ygc34ztpp58xxu6spvdq"
+              "fury1r3emvfrc242jcfr9f9ygc34ztpp58xxukwu7gg"
             ],
             "permissions": [
               {
@@ -1276,7 +1276,7 @@
             "id": "3",
             "description": "Fury God Committee (testing only)",
             "members": [
-              "fury1r3emvfrc242jcfr9f9ygc34ztpp58xxu6spvdq"
+              "fury1r3emvfrc242jcfr9f9ygc34ztpp58xxukwu7gg"
             ],
             "permissions": [
               {
@@ -1294,7 +1294,7 @@
             "id": "4",
             "description": "HARD Governance Committee",
             "members": [
-              "fury1r3emvfrc242jcfr9f9ygc34ztpp58xxu6spvdq"
+              "fury1r3emvfrc242jcfr9f9ygc34ztpp58xxukwu7gg"
             ],
             "permissions": [
               {
@@ -1339,7 +1339,7 @@
             "id": "5",
             "description": "SWP Governance Committee",
             "members": [
-              "fury1r3emvfrc242jcfr9f9ygc34ztpp58xxu6spvdq"
+              "fury1r3emvfrc242jcfr9f9ygc34ztpp58xxukwu7gg"
             ],
             "permissions": [
               {
@@ -2138,8 +2138,8 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "fury1ypjp0m04pyp73hwgtc0dgkx0e9rrydecm054da",
-                "validator_address": "furyvaloper1ypjp0m04pyp73hwgtc0dgkx0e9rrydeckewa42",
+                "delegator_address": "fury1ypjp0m04pyp73hwgtc0dgkx0e9rrydech3f8g4",
+                "validator_address": "furyvaloper1ypjp0m04pyp73hwgtc0dgkx0e9rrydecmmtjay",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
                   "key": "/iEtt5/G+7hUT4FJ4p29yi2DCRut5Bm1Zx6doestjUA="
@@ -3022,7 +3022,7 @@
       "params": {
         "assets": [
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz39659tg",
             "denom": "ufury",
             "blocked_addresses": [],
             "paused": false,
@@ -3034,7 +3034,7 @@
             }
           },
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz39659tg",
             "denom": "swp",
             "blocked_addresses": [],
             "paused": false,
@@ -3046,7 +3046,7 @@
             }
           },
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz39659tg",
             "denom": "erc20/multichain/usdt",
             "blocked_addresses": [],
             "paused": false,
@@ -3058,7 +3058,7 @@
             }
           },
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz39659tg",
             "denom": "usdx",
             "blocked_addresses": [],
             "paused": false,
@@ -3070,7 +3070,7 @@
             }
           },
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz39659tg",
             "denom": "erc20/multichain/usdc",
             "blocked_addresses": [],
             "paused": false,
@@ -3082,7 +3082,7 @@
             }
           },
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz39659tg",
             "denom": "hard",
             "blocked_addresses": [],
             "paused": false,
@@ -3094,7 +3094,7 @@
             }
           },
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz39659tg",
             "denom": "busd",
             "blocked_addresses": [],
             "paused": false,
@@ -3106,7 +3106,7 @@
             }
           },
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz39659tg",
             "denom": "btcb",
             "blocked_addresses": [],
             "paused": false,
@@ -3118,7 +3118,7 @@
             }
           },
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz39659tg",
             "denom": "bnb",
             "blocked_addresses": [],
             "paused": false,
@@ -3130,7 +3130,7 @@
             }
           },
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz39659tg",
             "denom": "xrpb",
             "blocked_addresses": [],
             "paused": false,
@@ -3181,7 +3181,7 @@
             "base_asset": "bnb",
             "market_id": "bnb:usd",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           },
@@ -3190,7 +3190,7 @@
             "base_asset": "bnb",
             "market_id": "bnb:usd:30",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           },
@@ -3199,7 +3199,7 @@
             "base_asset": "btc",
             "market_id": "btc:usd",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           },
@@ -3208,7 +3208,7 @@
             "base_asset": "btc",
             "market_id": "btc:usd:30",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           },
@@ -3217,7 +3217,7 @@
             "base_asset": "xrp",
             "market_id": "xrp:usd:30",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           },
@@ -3226,7 +3226,7 @@
             "base_asset": "xrp",
             "market_id": "xrp:usd",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           },
@@ -3235,7 +3235,7 @@
             "base_asset": "busd",
             "market_id": "busd:usd",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           },
@@ -3244,7 +3244,7 @@
             "base_asset": "busd",
             "market_id": "busd:usd:30",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           },
@@ -3253,7 +3253,7 @@
             "base_asset": "fury",
             "market_id": "fury:usd",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           },
@@ -3262,7 +3262,7 @@
             "base_asset": "fury",
             "market_id": "fury:usd:30",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           },
@@ -3271,7 +3271,7 @@
             "base_asset": "hard",
             "market_id": "hard:usd",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           },
@@ -3280,7 +3280,7 @@
             "base_asset": "hard",
             "market_id": "hard:usd:30",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           },
@@ -3289,7 +3289,7 @@
             "base_asset": "atom",
             "market_id": "atom:usd",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           },
@@ -3298,7 +3298,7 @@
             "base_asset": "atom",
             "market_id": "atom:usd:30",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           },
@@ -3307,7 +3307,7 @@
             "base_asset": "osmo",
             "market_id": "osmo:usd",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           },
@@ -3316,7 +3316,7 @@
             "base_asset": "osmo",
             "market_id": "osmo:usd:30",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           },
@@ -3325,7 +3325,7 @@
             "base_asset": "akt",
             "market_id": "akt:usd",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           },
@@ -3334,7 +3334,7 @@
             "base_asset": "akt",
             "market_id": "akt:usd:30",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           },
@@ -3343,7 +3343,7 @@
             "base_asset": "luna",
             "market_id": "luna:usd",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           },
@@ -3352,7 +3352,7 @@
             "base_asset": "luna",
             "market_id": "luna:usd:30",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           },
@@ -3361,7 +3361,7 @@
             "base_asset": "usdx",
             "market_id": "usdx:usd",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           },
@@ -3370,7 +3370,7 @@
             "base_asset": "usdx",
             "market_id": "usdx:usd:30",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           },
@@ -3379,7 +3379,7 @@
             "base_asset": "usdx",
             "market_id": "usdx:usd:720",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           },
@@ -3388,7 +3388,7 @@
             "base_asset": "swp",
             "market_id": "swp:usd",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           },
@@ -3397,7 +3397,7 @@
             "base_asset": "swp",
             "market_id": "swp:usd:30",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           },
@@ -3406,7 +3406,7 @@
             "base_asset": "erc20/multichain/usdc",
             "market_id": "erc20/multichain/usdc:usd",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           },
@@ -3415,7 +3415,7 @@
             "base_asset": "erc20/multichain/usdc",
             "market_id": "erc20/multichain/usdc:usd:30",
             "oracles": [
-              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em"
+              "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun"
             ],
             "quote_asset": "usd"
           }
@@ -3425,163 +3425,163 @@
         {
           "expiry": "2023-07-20T00:00:00Z",
           "market_id": "bnb:usd",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "215.962650000000001782"
         },
         {
           "expiry": "2023-07-20T00:00:00Z",
           "market_id": "bnb:usd:30",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "217.962650000000001782"
         },
         {
           "expiry": "2023-07-20T00:00:00Z",
           "market_id": "btc:usd",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "29500.962650000000001782"
         },
         {
           "expiry": "2023-07-20T00:00:00Z",
           "market_id": "btc:usd:30",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "28500.962650000000001782"
         },
         {
           "expiry": "2023-07-20T00:00:00Z",
           "market_id": "akt:usd",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "1.962650000000001782"
         },
         {
           "expiry": "2023-07-20T00:00:00Z",
           "market_id": "akt:usd:30",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "1.962650000000001782"
         },
         {
           "expiry": "2023-07-20T00:00:00Z",
           "market_id": "osmo:usd",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "4.962650000000001782"
         },
         {
           "expiry": "2023-07-20T00:00:00Z",
           "market_id": "osmo:usd:30",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "4.962650000000001782"
         },
         {
           "expiry": "2023-07-20T00:00:00Z",
           "market_id": "luna:usd",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "92.962650000000001782"
         },
         {
           "expiry": "2023-07-20T00:00:00Z",
           "market_id": "luna:usd:30",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "92.962650000000001782"
         },
         {
           "expiry": "2023-07-20T00:00:00Z",
           "market_id": "atom:usd",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "24.962650000000001782"
         },
         {
           "expiry": "2023-07-20T00:00:00Z",
           "market_id": "atom:usd:30",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "24.962650000000001782"
         },
         {
           "expiry": "2023-07-20T00:00:00Z",
           "market_id": "xrp:usd",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "0.552650000000001782"
         },
         {
           "expiry": "2023-07-20T00:00:00Z",
           "market_id": "xrp:usd:30",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "0.552650000000001782"
         },
         {
           "expiry": "2023-07-20T00:00:00Z",
           "market_id": "busd:usd",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "1.000000000000000000"
         },
         {
           "expiry": "2023-07-20T00:00:00Z",
           "market_id": "busd:usd:30",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "1.000000000000000000"
         },
         {
           "expiry": "2023-07-20T00:00:00Z",
           "market_id": "usdx:usd",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "1.000000000000000000"
         },
         {
           "expiry": "2023-07-20T00:00:00Z",
           "market_id": "usdx:usd:30",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "1.000000000000000000"
         },
         {
           "expiry": "2023-07-20T00:00:00Z",
           "market_id": "usdx:usd:720",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "1.000000000000000000"
         },
         {
           "expiry": "2023-07-20T00:00:00Z",
           "market_id": "fury:usd",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "3.000000000000000000"
         },
         {
           "expiry": "2023-07-20T00:00:00Z",
           "market_id": "fury:usd:30",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "3.000000000000000000"
         },
         {
           "expiry": "2023-07-20T00:00:00Z",
           "market_id": "hard:usd",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "0.500000000000000000"
         },
         {
           "expiry": "2023-07-20T00:00:00Z",
           "market_id": "hard:usd:30",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "0.500000000000000000"
         },
         {
           "expiry": "2023-07-20T00:00:00Z",
           "market_id": "swp:usd",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "2.150000000000000000"
         },
         {
           "expiry": "2023-07-20T00:00:00Z",
           "market_id": "swp:usd:30",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "2.150000000000000000"
         },
         {
           "expiry": "2023-07-20T00:00:00Z",
           "market_id": "erc20/multichain/usdc:usd",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "1.000000000000000000"
         },
         {
           "expiry": "2023-07-20T00:00:00Z",
           "market_id": "erc20/multichain/usdc:usd:30",
-          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6wn50em",
+          "oracle_address": "fury1acge4tcvhf3q6fh53fgwaa7vsq40wvx6zdfaun",
           "price": "1.000000000000000000"
         }
       ]
@@ -3590,7 +3590,7 @@
     "savings": {
       "params": {
         "supported_denoms": [
-          "bfury-furyvaloper1ypjp0m04pyp73hwgtc0dgkx0e9rrydeckewa42",
+          "bfury-furyvaloper1ypjp0m04pyp73hwgtc0dgkx0e9rrydecmmtjay",
           "usdx",
           "ufury",
           "hard",
@@ -3731,22 +3731,22 @@
       ],
       "share_records": [
         {
-          "depositor": "fury173w2zz287s36ewnnkf4mjansnthnnsz7rtrxqc",
+          "depositor": "fury173w2zz287s36ewnnkf4mjansnthnnsz704759s",
           "pool_id": "btcb:usdx",
           "shares_owned": "4472135954"
         },
         {
-          "depositor": "fury173w2zz287s36ewnnkf4mjansnthnnsz7rtrxqc",
+          "depositor": "fury173w2zz287s36ewnnkf4mjansnthnnsz704759s",
           "pool_id": "hard:usdx",
           "shares_owned": "1000000000"
         },
         {
-          "depositor": "fury173w2zz287s36ewnnkf4mjansnthnnsz7rtrxqc",
+          "depositor": "fury173w2zz287s36ewnnkf4mjansnthnnsz704759s",
           "pool_id": "swp:usdx",
           "shares_owned": "2236067977"
         },
         {
-          "depositor": "fury173w2zz287s36ewnnkf4mjansnthnnsz7rtrxqc",
+          "depositor": "fury173w2zz287s36ewnnkf4mjansnthnnsz704759s",
           "pool_id": "ufury:usdx",
           "shares_owned": "2236067977"
         }
