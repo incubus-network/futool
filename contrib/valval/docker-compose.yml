@@ -1,7 +1,7 @@
 version: '3'
 services:
   fury-1:
-    image: "fury/fury:${FURY_IMAGE_TAG:-master}"
+    image: "fanfury/furynode:${FURY_IMAGE_TAG:-master}"
     ports:
       # open default fury rpc port
       - "26657:26657"
@@ -23,7 +23,7 @@ services:
       - "-c"
       - "/root/.fury/config/init-data-directory.sh && fury start --rpc.laddr=tcp://0.0.0.0:26657 --x-crisis-skip-assert-invariants"
   fury-2:
-    image: "fury/fury:${FURY_IMAGE_TAG:-master}"
+    image: "fanfury/furynode:${FURY_IMAGE_TAG:-master}"
     volumes:
       - "./fury-2:/root/.fury"
     # start the blockchain, and set rpc to listen to connections from outside the container
@@ -32,7 +32,7 @@ services:
       - "-c"
       - "/root/.fury/config/init-data-directory.sh && fury start --rpc.laddr=tcp://0.0.0.0:26657 --x-crisis-skip-assert-invariants"
   fury-3:
-    image: "fury/fury:${FURY_IMAGE_TAG:-master}"
+    image: "fanfury/furynode:${FURY_IMAGE_TAG:-master}"
     volumes:
       - "./fury-3:/root/.fury"
     # start the blockchain, and set rpc to listen to connections from outside the container
@@ -41,7 +41,7 @@ services:
       - "-c"
       - "/root/.fury/config/init-data-directory.sh && fury start --rpc.laddr=tcp://0.0.0.0:26657 --x-crisis-skip-assert-invariants"
   fury-4:
-    image: "fury/fury:${FURY_IMAGE_TAG:-master}"
+    image: "fanfury/furynode:${FURY_IMAGE_TAG:-master}"
     volumes:
       - "./fury-4:/root/.fury"
     # start the blockchain, and set rpc to listen to connections from outside the container
@@ -50,7 +50,7 @@ services:
       - "-c"
       - "/root/.fury/config/init-data-directory.sh && fury start --rpc.laddr=tcp://0.0.0.0:26657 --x-crisis-skip-assert-invariants"
   fury-5:
-    image: "fury/fury:${FURY_IMAGE_TAG:-master}"
+    image: "fanfury/furynode:${FURY_IMAGE_TAG:-master}"
     volumes:
       - "./fury-5:/root/.fury"
     # start the blockchain, and set rpc to listen to connections from outside the container
@@ -59,7 +59,7 @@ services:
       - "-c"
       - "/root/.fury/config/init-data-directory.sh && fury start --rpc.laddr=tcp://0.0.0.0:26657 --x-crisis-skip-assert-invariants"
   fury-6:
-    image: "fury/fury:${FURY_IMAGE_TAG:-master}"
+    image: "fanfury/furynode:${FURY_IMAGE_TAG:-master}"
     volumes:
       - "./fury-6:/root/.fury"
     # start the blockchain, and set rpc to listen to connections from outside the container
@@ -68,7 +68,7 @@ services:
       - "-c"
       - "/root/.fury/config/init-data-directory.sh && fury start --rpc.laddr=tcp://0.0.0.0:26657 --x-crisis-skip-assert-invariants"
   fury-7:
-    image: "fury/fury:${FURY_IMAGE_TAG:-master}"
+    image: "fanfury/furynode:${FURY_IMAGE_TAG:-master}"
     volumes:
       - "./fury-7:/root/.fury"
     # start the blockchain, and set rpc to listen to connections from outside the container
@@ -77,7 +77,7 @@ services:
       - "-c"
       - "/root/.fury/config/init-data-directory.sh && fury start --rpc.laddr=tcp://0.0.0.0:26657 --x-crisis-skip-assert-invariants"
   fury-8:
-    image: "fury/fury:${FURY_IMAGE_TAG:-master}"
+    image: "fanfury/furynode:${FURY_IMAGE_TAG:-master}"
     volumes:
       - "./fury-8:/root/.fury"
     # start the blockchain, and set rpc to listen to connections from outside the container
@@ -86,7 +86,7 @@ services:
       - "-c"
       - "/root/.fury/config/init-data-directory.sh && fury start --rpc.laddr=tcp://0.0.0.0:26657 --x-crisis-skip-assert-invariants"
   fury-9:
-    image: "fury/fury:${FURY_IMAGE_TAG:-master}"
+    image: "fanfury/furynode:${FURY_IMAGE_TAG:-master}"
     volumes:
       - "./fury-9:/root/.fury"
     # start the blockchain, and set rpc to listen to connections from outside the container
@@ -95,7 +95,7 @@ services:
       - "-c"
       - "/root/.fury/config/init-data-directory.sh && fury start --rpc.laddr=tcp://0.0.0.0:26657 --x-crisis-skip-assert-invariants"
   fury-10:
-    image: "fury/fury:${FURY_IMAGE_TAG:-master}"
+    image: "fanfury/furynode:${FURY_IMAGE_TAG:-master}"
     volumes:
       - "./fury-10:/root/.fury"
     # start the blockchain, and set rpc to listen to connections from outside the container
@@ -104,7 +104,7 @@ services:
       - "-c"
       - "/root/.fury/config/init-data-directory.sh && fury start --rpc.laddr=tcp://0.0.0.0:26657 --x-crisis-skip-assert-invariants"
   fury-11:
-    image: "fury/fury:${FURY_IMAGE_TAG:-master}"
+    image: "fanfury/furynode:${FURY_IMAGE_TAG:-master}"
     volumes:
       - "./fury-11:/root/.fury"
     # start the blockchain, and set rpc to listen to connections from outside the container
@@ -113,7 +113,7 @@ services:
       - "-c"
       - "/root/.fury/config/init-data-directory.sh && fury start --rpc.laddr=tcp://0.0.0.0:26657 --x-crisis-skip-assert-invariants"
   fury-12:
-    image: "fury/fury:${FURY_IMAGE_TAG:-master}"
+    image: "fanfury/furynode:${FURY_IMAGE_TAG:-master}"
     volumes:
       - "./fury-12:/root/.fury"
     # start the blockchain, and set rpc to listen to connections from outside the container
@@ -122,7 +122,7 @@ services:
       - "-c"
       - "/root/.fury/config/init-data-directory.sh && fury start --rpc.laddr=tcp://0.0.0.0:26657 --x-crisis-skip-assert-invariants"
   fury-13:
-    image: "fury/fury:${FURY_IMAGE_TAG:-master}"
+    image: "fanfury/furynode:${FURY_IMAGE_TAG:-master}"
     volumes:
       - "./fury-13:/root/.fury"
     # start the blockchain, and set rpc to listen to connections from outside the container
