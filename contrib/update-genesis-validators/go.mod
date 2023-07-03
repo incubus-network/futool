@@ -53,7 +53,7 @@ require (
 	github.com/dvsekhvalnov/jose2go v1.5.0 // indirect
 	github.com/edsrzf/mmap-go v1.0.0 // indirect
 	github.com/ethereum/go-ethereum v1.10.26 // indirect
-	github.com/evmos/ethermint v0.21.0 // indirect
+	github.com/evmos/nautilus v0.21.0 // indirect
 	github.com/felixge/httpsnoop v1.0.1 // indirect
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
 	github.com/gballet/go-libpcsclite v0.0.0-20190607065134-2772fd86a8ff // indirect
@@ -176,8 +176,8 @@ require (
 replace (
 	// Use cosmos-sdk fork with backported fix for unsafe-reset-all, staking transfer events, and custom tally handler support
 	github.com/cosmos/cosmos-sdk => github.com/kava-labs/cosmos-sdk v0.46.11-kava.1
-	// Use ethermint fork that respects min-gas-price with NoBaseFee true and london enabled, and includes eip712 support
-	github.com/evmos/ethermint => github.com/kava-labs/ethermint v0.21.0-kava-v23-1
+	// Use nautilus fork that respects min-gas-price with NoBaseFee true and london enabled, and includes eip712 support
+	github.com/evmos/nautilus => github.com/kava-labs/nautilus v0.21.0-kava-v23-1
 	// Use the cosmos modified protobufs
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
 	// Downgraded to avoid bugs in following commits which causes "version does not exist" errors

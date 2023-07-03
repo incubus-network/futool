@@ -7,7 +7,7 @@
 # you can use this script to generate different chains.
 # by default, it generates the files in the fury master template.
 # Environment variables:
-# - CHAIN_ID: The chain ID. Default: furylocalnet_8888-1
+# - CHAIN_ID: The chain ID. Default: highbury_710-1
 # - DEST: Destination directory. Example: ./config/templates/fury/master/initstate/.fury
 # - DENOM: Sets the primary denomination. This is respected in the validator setup
 #          and then a final find&replace for ufury -> $DENOM
@@ -19,10 +19,9 @@ set -e
 
 mkdir -p scratch
 
-DATA=./scratch/.fury
-DEST=${DEST:-./config/templates/fury/master/initstate/.fury}
-DENOM=${DENOM:-ufury}
-ADDRESSES=./config/common/addresses.json
+export DATA=$HOME/.fury
+export DEST=${DEST:-./config/templates/fury/master/initstate/.fury}
+export DENOM=${DENOM:-ufury}
 
 BINARY="fury --home $DATA"
 
@@ -63,7 +62,7 @@ function set-app-state {
 rm -rf $DATA
 
 # Create new data directory, overwriting any that alread existed
-chainID=${CHAIN_ID:-furylocalnet_8888-1}
+chainID=${CHAIN_ID:-highbury_710-1}
 $BINARY init validator --chain-id $chainID
 
 # Copy over original validator keys
@@ -148,7 +147,7 @@ function add-genesis-account-key {
   echo "$mnemonic" | $BINARY keys add "$account_name" --recover
   add-genesis-account "$account_name" "$initial_funds"
 }
-# same as above, but use --eth (for coin type 60 & ethermint's ethsecp256k1 signing algorithm)
+# same as above, but use --eth (for coin type 60 & nautilus's ethsecp256k1 signing algorithm)
 function add-eth-genesis-account-key {
   account_name=$1
   mnemonic_path=$2
@@ -225,7 +224,7 @@ add-eth-genesis-account-key user '.fury.users.user' 1000000000ufury
 
 
 ibcdenom='ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2' # ATOM on mainnet
-whalefunds=1000000000000ufury,10000000000000000bfury-"$valoper",10000000000000000bnb,10000000000000000btcb,10000000000000000busd,1000000000000000000hard,1000000000000000000swp,10000000000000000usdx,10000000000000000xrpb,10000000000000000"$ibcdenom"
+whalefunds=1000000000000ufury,10000000000000000bfury-"$valoper",10000000000000000bnb,10000000000000000btcb,10000000000000000busd,1000000000000000000hard,1000000000000000000swp,10000000000000000musd,10000000000000000xrpb,10000000000000000"$ibcdenom"
 # whale account
 whale=$(get-address '.fury.users.whale')
 export whale
@@ -255,9 +254,9 @@ add-eth-genesis-account-key bridge_relayer '.fury.users.bridge_relayer' 10000000
 
 # Accounts without keys
 # issuance module
-add-genesis-account kava1cj7njkw2g9fqx4e768zc75dp9sks8u9znxrf0w 1000000000000ufury,1000000000000swp,1000000000000hard
+add-genesis-account fury1cj7njkw2g9fqx4e768zc75dp9sks8u9zlc7m2x 1000000000000ufury,1000000000000swp,1000000000000hard
 # swap module
-add-genesis-account kava1mfru9azs5nua2wxcd4sq64g5nt7nn4n8s2w8cu 5000000000ufury,200000000btcb,1000000000hard,5000000000swp,103000000000usdx
+add-genesis-account fury1mfru9azs5nua2wxcd4sq64g5nt7nn4n8u5n4a5 5000000000ufury,200000000btcb,1000000000hard,5000000000swp,103000000000musd
 
 # override `auth.accounts` array.
 # DO NOT CALL `add-genesis-account` AFTER HERE UNLESS IT IS AN EthAccount
@@ -286,8 +285,8 @@ jq ".app_state.auth.accounts"' = '"$account_data" $DATA/config/genesis.json | sp
 
 # Replace stake with ufury
 sed -i '' 's/stake/ufury/g' $DATA/config/genesis.json
-# Replace the default evm denom of aphoton with ufury
-sed -i '' 's/aphoton/afury/g' $DATA/config/genesis.json
+# Replace the default evm denom of avblack with ufury
+sed -i '' 's/avblack/afury/g' $DATA/config/genesis.json
 
 # Zero out the total supply so it gets recalculated during InitGenesis
 jq '.app_state.bank.supply = []' $DATA/config/genesis.json | sponge $DATA/config/genesis.json
@@ -386,7 +385,7 @@ set-app-state pricefeed
 
 # x/savings supported denoms
 jq '.app_state.savings.params.supported_denoms =
-  [ "bfury-'"$valoper"'", "usdx", "ufury", "hard", "swp", "bfury", "erc20/multichain/usdc" ]' \
+  [ "bfury-'"$valoper"'", "musd", "ufury", "hard", "swp", "bfury", "erc20/multichain/usdc" ]' \
   $DATA/config/genesis.json | sponge $DATA/config/genesis.json
 
 # x/swap (uses $whale)

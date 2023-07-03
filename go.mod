@@ -181,7 +181,7 @@ require (
 replace (
 	// Use cosmos-sdk fork with backported fix for unsafe-reset-all, staking transfer events, and custom tally handler support
 	github.com/cosmos/cosmos-sdk => github.com/kava-labs/cosmos-sdk v0.46.11-kava.1
-	// Use ethermint fork that respects min-gas-price with NoBaseFee true and london enabled, and includes eip712 support
+	// Use nautilus fork that respects min-gas-price with NoBaseFee true and london enabled, and includes eip712 support
 	github.com/evmos/ethermint => github.com/kava-labs/ethermint v0.21.0-kava-v23-1
 	// Use the cosmos modified protobufs
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1

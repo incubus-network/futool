@@ -3,6 +3,27 @@
     "markets": [
       {
         "active": true,
+        "base_asset": "musd",
+        "market_id": "musd:usd",
+        "oracles": ["$oracle"],
+        "quote_asset": "usd"
+      },
+      {
+        "active": true,
+        "base_asset": "musd",
+        "market_id": "musd:usd:30",
+        "oracles": ["$oracle"],
+        "quote_asset": "usd"
+      },
+      {
+        "active": true,
+        "base_asset": "musd",
+        "market_id": "musd:usd:720",
+        "oracles": ["$oracle"],
+        "quote_asset": "usd"
+      },
+      {
+        "active": true,
         "base_asset": "bnb",
         "market_id": "bnb:usd",
         "oracles": ["$oracle"],
@@ -143,27 +164,6 @@
       },
       {
         "active": true,
-        "base_asset": "usdx",
-        "market_id": "usdx:usd",
-        "oracles": ["$oracle"],
-        "quote_asset": "usd"
-      },
-      {
-        "active": true,
-        "base_asset": "usdx",
-        "market_id": "usdx:usd:30",
-        "oracles": ["$oracle"],
-        "quote_asset": "usd"
-      },
-      {
-        "active": true,
-        "base_asset": "usdx",
-        "market_id": "usdx:usd:720",
-        "oracles": ["$oracle"],
-        "quote_asset": "usd"
-      },
-      {
-        "active": true,
         "base_asset": "swp",
         "market_id": "swp:usd",
         "oracles": ["$oracle"],
@@ -291,19 +291,19 @@
     },
     {
       "expiry": "2023-07-20T00:00:00Z",
-      "market_id": "usdx:usd",
+      "market_id": "musd:usd",
       "oracle_address": "$oracle",
       "price": "1.000000000000000000"
     },
     {
       "expiry": "2023-07-20T00:00:00Z",
-      "market_id": "usdx:usd:30",
+      "market_id": "musd:usd:30",
       "oracle_address": "$oracle",
       "price": "1.000000000000000000"
     },
     {
       "expiry": "2023-07-20T00:00:00Z",
-      "market_id": "usdx:usd:720",
+      "market_id": "musd:usd:720",
       "oracle_address": "$oracle",
       "price": "1.000000000000000000"
     },

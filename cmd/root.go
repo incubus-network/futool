@@ -4,7 +4,6 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/kava-labs/kava/app"
-	"github.com/incubus-network/fury/app"
 	"github.com/spf13/cobra"
 
 	"github.com/incubus-network/futool/cmd/testnet"

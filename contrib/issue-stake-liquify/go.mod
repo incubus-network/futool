@@ -126,7 +126,7 @@ require (
 	github.com/tendermint/crypto v0.0.0-20191022145703-50d29ede1e15 // indirect
 	github.com/tendermint/go-amino v0.16.0 // indirect
 	github.com/tendermint/tm-db v0.6.7 // indirect
-	github.com/tharsis/ethermint v0.14.0 // indirect
+	github.com/tharsis/nautilus v0.14.0 // indirect
 	github.com/tklauser/go-sysconf v0.3.7 // indirect
 	github.com/tklauser/numcpus v0.2.3 // indirect
 	github.com/tyler-smith/go-bip39 v1.1.0 // indirect
@@ -160,8 +160,8 @@ replace (
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
 	// Use rocksdb 7.1.2
 	github.com/tendermint/tm-db => github.com/kava-labs/tm-db v0.6.7-fury.1
-	// Use ethermint fork that respects min-gas-price with NoBaseFee true and london enabled
-	github.com/tharsis/ethermint => github.com/Kava-Labs/ethermint v0.14.0-fury-v17.5
+	// Use nautilus fork that respects min-gas-price with NoBaseFee true and london enabled
+	github.com/tharsis/nautilus => github.com/Kava-Labs/nautilus v0.14.0-fury-v17.5
 	// Make sure that we use grpc compatible with cosmos
 	google.golang.org/grpc => google.golang.org/grpc v1.33.2
 )

@@ -1,6 +1,6 @@
 [
   {
-    "@type": "/ethermint.types.v1.EthAccount",
+    "@type": "/nautilus.types.v1.EthAccount",
     "base_account": {
       "address": "$whale2",
       "pub_key": null,
@@ -10,7 +10,7 @@
     "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
   },
   {
-    "@type": "/ethermint.types.v1.EthAccount",
+    "@type": "/nautilus.types.v1.EthAccount",
     "base_account": {
       "address": "$committee",
       "pub_key": null,
@@ -20,7 +20,7 @@
     "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
   },
   {
-    "@type": "/ethermint.types.v1.EthAccount",
+    "@type": "/nautilus.types.v1.EthAccount",
     "base_account": {
       "address": "$user",
       "pub_key": null,
@@ -30,7 +30,7 @@
     "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
   },
   {
-    "@type": "/ethermint.types.v1.EthAccount",
+    "@type": "/nautilus.types.v1.EthAccount",
     "base_account": {
       "address": "$bridge_relayer",
       "pub_key": null,
@@ -40,30 +40,30 @@
     "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
   },
   {
-    "@type": "/ethermint.types.v1.EthAccount",
+    "@type": "/nautilus.types.v1.EthAccount",
     "base_account": {
       "account_number": "41",
-      "address": "kava1afcspmdzlqzn2c53krj4mt2yskv6wtrds2jqht",
+      "address": "fury1afcspmdzlqzn2c53krj4mt2yskv6wtrdu50jjr",
       "pub_key": null,
       "sequence": "1"
     },
     "code_hash": "0x45d85d503e0143ffd2bb95d7bcb4dadfc1c05ff005fc7c26e63eb47f496fdafc"
   },
   {
-    "@type": "/ethermint.types.v1.EthAccount",
+    "@type": "/nautilus.types.v1.EthAccount",
     "base_account": {
       "account_number": "0",
-      "address": "kava1vtf08rd2z9fm8qwxa54y3el5vues8ty64qcdyr",
+      "address": "fury1vtf08rd2z9fm8qwxa54y3el5vues8ty6e79lpt",
       "pub_key": null,
       "sequence": "1"
     },
     "code_hash": "0xefe54230c8a74092194afdcb21c230b4cc4e07d0e6cd22bf0d3721f518df8ef2"
   },
   {
-    "@type": "/ethermint.types.v1.EthAccount",
+    "@type": "/nautilus.types.v1.EthAccount",
     "base_account": {
       "account_number": "0",
-      "address": "kava1wrrekcy2h0zs9shkruuwqsvsldq8hm70yad4ke",
+      "address": "fury1wrrekcy2h0zs9shkruuwqsvsldq8hm70grs8n3",
       "pub_key": null,
       "sequence": "1"
     },

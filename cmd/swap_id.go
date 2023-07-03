@@ -16,10 +16,10 @@ import (
 
 var (
 	furyDeputiesStrings map[string]string = map[string]string{
-		"bnb":  "kava1r4v2zdhdalfj2ydazallqvrus9fkphmgnfwgej",
-		"btcb": "kava14qsmvzprqvhwmgql9fr0u3zv9n2qla8zmdxxys",
-		"busd": "kava1hh4x3a4suu5zyaeauvmv7ypf7w9llwlfsh0fe5",
-		"xrpb": "kava1c0ju5vnwgpgxnrktfnkccuth9xqc68dcpllncc",
+		"bnb":  "||| kava1r4v2zdhdalfj2ydazallqvrus9fkphmgnfwgej ||| <-- ERROR CONVERTING THIS ADDRESS: Invalid checksum for kava1r4v2zdhdalfj2ydazallqvrus9fkphmgnfwgej",
+		"btcb": "||| kava14qsmvzprqvhwmgql9fr0u3zv9n2qla8zmdxxys ||| <-- ERROR CONVERTING THIS ADDRESS: Invalid checksum for kava14qsmvzprqvhwmgql9fr0u3zv9n2qla8zmdxxys",
+		"busd": "||| kava1hh4x3a4suu5zyaeauvmv7ypf7w9llwlfsh0fe5 ||| <-- ERROR CONVERTING THIS ADDRESS: Invalid checksum for kava1hh4x3a4suu5zyaeauvmv7ypf7w9llwlfsh0fe5",
+		"xrpb": "||| kava1c0ju5vnwgpgxnrktfnkccuth9xqc68dcpllncc ||| <-- ERROR CONVERTING THIS ADDRESS: Invalid checksum for kava1c0ju5vnwgpgxnrktfnkccuth9xqc68dcpllncc",
 	}
 	bnbDeputiesStrings map[string]string = map[string]string{
 		"bnb":  "bnb1jh7uv2rm6339yue8k4mj9406k3509kr4wt5nxn",
